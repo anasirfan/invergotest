@@ -1,0 +1,3103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from invergodesign.com/packages by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jul 2025 16:29:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="format-detection" content="telephone=no">
+	<title>InverGo Design - Packages</title>
+	<link href="css/blog_page.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/fav.jpg" type="image/png">
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&amp;display=swap" rel="stylesheet">
+	<link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="import" href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap">
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+	<script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	<script src="../code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<script src="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700">
+	<style>
+	a:focus, a:hover {
+        color: #FFF !important;
+        text-decoration: NONE !important;
+    }
+    a{
+        color:#fff !important;
+    }
+	@keyframes animate-circle {
+		from {
+			transform: scale(0);
+			opacity: 1;
+		}
+
+		to {
+			transform: scale(1);
+			opacity: 0;
+		}
+	}
+
+	#preloader {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		background: #1C1C1C;
+		background: linear-gradient(to right, rgba(36, 31, 31, 1) 0%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
+	}
+
+	.loader {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		height: 10rem;
+		width: 10rem;
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+	.loader>.circle {
+		position: absolute;
+		height: inherit;
+		width: inherit;
+		background: #6649B6;
+		border-radius: 0;
+		animation: animate-circle 2s cubic-bezier(.9, .24, .62, .79) infinite;
+	}
+
+	.loader>.circle:nth-of-type(1) {
+		animation-delay: 0s;
+	}
+
+	.loader>.circle:nth-of-type(2) {
+		animation-delay: calc(2s / -3);
+	}
+
+	.loader>.circle:nth-of-type(3) {
+		animation-delay: calc(2s / -6);
+	}
+
+	.fancyTab {
+		text-align: center;
+		padding: 15px 0;
+		background-color: #1b1b1b;
+		box-shadow: 0 0 0 1px #ffffff12;
+		top: 15px;
+		transition: top .2s;
+	}
+
+	.fancyTab.active {
+		top: 0;
+		transition: top .2s;
+	}
+
+	.whiteBlock {
+		display: none;
+	}
+
+	.fancyTab.active .whiteBlock {
+		display: block;
+		height: 2px;
+		bottom: -2px;
+		/*background-color: #1b1b1b;*/
+		width: 99%;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.fancyTab a {
+		font-family: 'Source Sans Pro';
+		font-size: 1.65em;
+		font-weight: 300;
+		transition: .2s;
+		color: #333;
+	}
+
+	/*.fancyTab .hidden-xs {
+  white-space:nowrap;
+}*/
+	.fancyTabs {
+		border-bottom: 2px solid #ddd;
+		margin: 15px 0 0;
+	}
+
+	li.fancyTab a {
+		padding-top: 15px;
+		top: -15px;
+		padding-bottom: 0;
+	}
+
+	li.fancyTab.active a {
+		padding-top: inherit;
+	}
+
+	.fancyTab .fa {
+		font-size: 40px;
+		width: 100%;
+		padding: 15px 0 5px;
+		color: #fff;
+	}
+
+	.fancyTab.active .fa {
+		color: #6649B6;
+	}
+
+	.fancyTab a:focus {
+		outline: none;
+	}
+
+	.fancyTabContent {
+		border-color: transparent;
+		box-shadow: 0 -2px 0 -1px #6649B6, 0 0 0 1px #1b1b1b;
+		padding: 30px 15px 15px;
+		position: relative;
+		background-color: #1b1b1bde;
+	}
+
+	.nav-tabs>li.fancyTab.active>a,
+	.nav-tabs>li.fancyTab.active>a:focus,
+	.nav-tabs>li.fancyTab.active>a:hover {
+		border-width: 0;
+	}
+
+	.nav-tabs>li.fancyTab:hover {
+		    background-color: #1b1b1b;
+    box-shadow: 0 0 0 1px #6649B6;
+	}
+
+	.nav-tabs>li.fancyTab.active:hover {
+		background-color: #1b1b1b;
+		/*box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;*/
+	}
+
+	.nav-tabs>li.fancyTab:hover a {
+		border-color: transparent;
+	}
+
+	.nav.nav-tabs .fancyTab a[data-toggle="tab"] {
+		background-color: transparent;
+		border-bottom: 0;
+	    font-family: 'Coda';
+		color: #fff  !important;
+	}
+    li.tab.fancyTab.active span {
+        color: #6649B6;
+    }
+	.nav-tabs>li.fancyTab:hover a {
+		border-right: 1px solid transparent;
+	}
+
+	.nav-tabs>li.fancyTab>a {
+		margin-right: 0;
+		border-top: 0;
+		padding-bottom: 30px;
+		margin-bottom: -30px;
+	}
+
+	.nav-tabs>li.fancyTab {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	.nav-tabs>li.fancyTab:last-child a {
+		border-right: 1px solid transparent;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	        border: 1px solid #1b1b1b !important;
+	}
+
+	/*.nav-tabs>li.fancyTab.active:last-child {*/
+	/*	border-right: 0px solid #ddd;*/
+	/*	box-shadow: 0px 2px 0 0px #fff, 0px 0px 0 1px #ddd;*/
+	/*}*/
+
+	/*.fancyTab:last-child {*/
+	/*	box-shadow: 0 0 0 1px #ddd;*/
+	/*}*/
+
+	.tabs .nav-tabs li.fancyTab.active a {
+		box-shadow: none;
+		top: 0;
+	}
+
+	.fancyTab.active {
+		background: #1b1b1b;
+		/*box-shadow: 1px 1px 0 1px #fff, 0 0px 0 1px #ddd, -1px 1px 0 0px #ddd inset;*/
+		padding-bottom: 30px;
+	}
+
+	.arrow-down {
+		display: none;
+		width: 0;
+		height: 0;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 22px solid #6649B6;
+		position: absolute;
+		top: -1px;
+		left: calc(50% - 20px);
+	}
+
+	.arrow-down-inner {
+		width: 0;
+		height: 0;
+		border-left: 18px solid transparent;
+		border-right: 18px solid transparent;
+		border-top: 12px solid #6649B6;
+		position: absolute;
+		top: -22px;
+		left: -18px;
+	}
+
+	.fancyTab.active .arrow-down {
+		display: block;
+	}
+
+	@media (max-width: 1200px) {
+		.fancyTab .fa {
+			font-size: 36px;
+		}
+
+		.fancyTab .hidden-xs {
+			font-size: 22px;
+		}
+	}
+
+	@media (max-width: 992px) {
+		.fancyTab .fa {
+			font-size: 33px;
+		}
+
+		.fancyTab .hidden-xs {
+			font-size: 18px;
+			font-weight: normal;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.fancyTab>a {
+			font-size: 18px;
+		}
+
+		.nav>li.fancyTab>a {
+			padding: 15px 0;
+			margin-bottom: inherit;
+		}
+
+		.fancyTab .fa {
+			font-size: 30px;
+		}
+
+		.nav-tabs>li.fancyTab>a {
+			border-right: 1px solid transparent;
+			padding-bottom: 0;
+		}
+
+		.fancyTab.active .fa {
+			color: #fff;
+		}
+	}
+
+	#fancyTabWidget {
+		padding-top: 20vh;
+		padding-bottom: 5vh;
+		padding-left:2vh;
+		padding-right:2vh;
+	}
+	/*PACKAGES SECTION*/
+/*.packages:after {*/
+/*  content: "";*/
+/*  background: url(../images/pack-mid.png);*/
+/*  width: 135px;*/
+/*  height: 240px;*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  right: 0;*/
+/*  bottom: 50%;*/
+/*  background-size: cover;*/
+/*  opacity: 0.8;*/
+/*}*/
+
+/*.packages:before {*/
+/*  content: "";*/
+/*  background: url(../images/pack-mid-left.png);*/
+/*  width: 100px;*/
+/*  height: 180px;*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  top: 25%;*/
+/*  background-size: cover;*/
+/*  opacity: 0.4;*/
+/*}*/
+
+/*.packages {*/
+/*  position: relative;*/
+/*  background: url(../images/pack-bg.jpg);*/
+/*  background-position: top center;*/
+/*  background-repeat: no-repeat;*/
+/*  background-size: cover;*/
+/*  background: #18252b ;*/
+/*}*/
+
+.packages .heading {
+  text-align: start;
+}
+
+.packages .heading h3 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 20px;
+}
+
+.packages .heading h3 span {
+  color: #34afa9;
+}
+
+.packages .heading p {
+  color: #fff;
+}
+
+.packages .packages-main {
+  transition: all 0.3s ease-out;
+  text-align: revert;
+  margin-top: 50px;
+  border: 2px solid #02f6c0;
+  border-radius: 15px;
+  background: transparent;
+  box-shadow: 0px 0px 5px 1px #02f6c0;
+  font-family: 'Coda';
+}
+
+.packages .packages-main .title {
+  padding: 10px 20px;
+  position: relative;
+}
+/*.packages .packages-main .title:after {*/
+/*  content: "";*/
+/*  width: 76px;*/
+/*  height: 77px;*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*}*/
+.packages .packages-main .title h2 {
+  font-size: 18px;
+  color: #ffffff;
+  /* line-height: 2.5vh; */
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align:center;
+}
+.packages .packages-main .title p {
+  /* font-size: 1.5vh; */
+  line-height: 2.5vh;
+  color: #b3b3b3;
+  margin: 5px 0;
+  text-align:center;
+}
+.desc_section h5{
+    padding: 10px 20px;
+    color: #34afa9;
+    font-size: 2vh;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.desc_section.commercial {
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.packages .packages-main .price {
+  /* background: url(../images/packprice-bg.jpg); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75px;
+  display: inline-flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+.packages .packages-main .price strong {
+  font-size: 6.5vh;
+  /* color: #34afa9; */
+  color: transparent;
+  -webkit-text-stroke: 1px #02f6c0;
+  font-weight: 600;
+  line-height: 6.5vh;
+}
+.bPrice{
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+}
+.bPrice::before{
+  content: 'before:';
+  color: #34afa9;
+  font-size: 1.5vh;
+  margin-bottom: 5px;
+}
+.packages .packages-main .price strong sup {
+  color: transparent;
+  font-size: 0.5em;
+}
+.price{
+  display: inline-flex;
+  flex-direction: row;
+}
+.price p{
+  color: #fff;
+  font-size: 1.5vh;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+.packages .packages-main .desc_section::-webkit-scrollbar-track {
+  background-color: #27262600;
+}
+.packages .packages-main .desc_section::-webkit-scrollbar {
+  width: 5px;
+  background-color: #10101020;
+}
+.packages .packages-main .desc_section::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  box-shadow: inset 0 0 6px #34afa9;
+  background-color: #34afa9;
+  border: 1px solid #34afa9;
+}
+.packages .packages-main .commercial ul {
+    max-height: 100px !important;
+    min-height: 100px !important;
+}
+.price p span{
+  text-decoration: none !important;
+}
+.packages .packages-main .desc_section {
+  /* background: #101010; */
+  padding: 16px 10px 16px 0;
+  text-align: left;
+}
+.packages .packages-main .desc_section ul::-webkit-scrollbar-track {
+  background-color: #27262600;
+}
+.packages .packages-main .desc_section ul::-webkit-scrollbar {
+  width: 5px;
+  background-color: #10101020;
+}
+.packages .packages-main .desc_section ul::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  box-shadow: inset 0 0 6px #02f6c0;
+  background-color: #02f6c0;
+  border: 1px solid #02f6c0;
+}
+.packages .packages-main .desc_section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 0 25px;
+  margin-bottom: 0;
+}
+.packages .packages-main .desc_section ul li {
+  position: relative;
+  /* font-size: 1.5vh; */
+  width: 20%;
+  line-height: 2vh;
+  color: #818181;
+  list-style: none;
+  padding-left: 30px;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+.packages .packages-main .desc_section ul li span {
+  display: block;
+  color: #a58a8a;
+}
+.packages .packages-main .desc_section ul li:before {
+  content: "";
+  background: url(images/icon-packlist.png);
+  width: 17px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.packages .packages-main .moneyPack {
+  background: #0B3F33;
+  padding: 10px 38px;
+  color: #fff;
+  text-align: center;
+}
+.package-box {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* .package-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.packages .packages-main .moneyPack p {
+  margin: 0;
+  position: relative;
+  padding-left: 30px;
+  display: inline-block;
+}
+.packages .packages-main .moneyPack p:before {
+  content: "";
+  background: url(images/icon-packlist.png);
+  width: 17px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  filter: brightness(0);
+}
+.packages .packages-main .bottom_pack {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.packages .packages-main .bottom_pack .pack_cta .btn-od {
+  color: #fff;
+  font-size: 1.5vh;
+  font-weight: 500;
+  border: 1px solid #02f6c0;
+  display: inline-block;
+  justify-content: center;
+  padding: 5px 30px;
+  border-radius: 25px;
+  margin: 0;
+  background: transparent;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn-cta::before {
+  content: '\f218';
+  font-family: 'FontAwesome';
+  font-size: 1.9vh;
+  color: #0B3F33;
+}
+.packages .packages-main .bottom_pack .pack_cta .btn-od span {
+  margin-right: 0px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.packages-main:hover .price strong {
+  color: #fff!important;
+  -webkit-text-stroke: 1px #fff;
+}
+.packages-main:hover .price strong sup{
+  /* color: #34afa9!important; */
+  -webkit-text-stroke: 1px #fff;
+}
+.packages .packages-main .bottom_pack .pack_cta .btn-od:hover {
+  text-decoration: none;
+  background: #03031c;
+}
+
+.packages .packages-main .bottom_pack .liovechats-bx a:hover {
+  /* background: #03031c; */
+  color: #fff;
+}
+
+.packages .packages-main .bottom_pack .liovechats-bx a:hover span {
+  color: #fff;
+}
+
+.packages .packages-main .bottom_pack .liovechats-bx a {
+  height: 42px;
+  display: inline-block;
+  padding: 5px 20px;
+  text-align: left;
+  border-radius: 3px;
+}
+
+.packages .packages-main .bottom_pack .liovechats-bx a span {
+  color: #6c6565;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 12px;
+  text-align: left;
+}
+
+.packages .packages-main .bottom_pack .liovechats-bx a h5 {
+  position: relative;
+  padding-left: 25px;
+      font-size: 1vh;
+    line-height: 2.5vh;
+  color: #34afa9;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.packages .packages-main .bottom_pack .liovechats-bx a h5:before {
+  content: "";
+  background: url(images/pack-livechat.html);
+  width: 18px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.packages .packages-main .bottom_pack .liovechats-bx a:hover {
+  text-decoration: none;
+}
+
+.packages .packages-main:hover {
+  transform: scale(1.05);
+  border: 2px solid #0B3F33;
+}
+
+/* .packages .packages-main:hover .title {
+  background: #262626;
+}
+
+/*.packages .packages-main:hover .desc_section {
+  /* background: #262626; */
+
+
+.packages .packages-main .bottom_pack .pack_cta .btn-od:hover {
+  background: #1b1b1b;
+    color: #fff;
+    border: 1px solid #0B3F33;
+}
+
+.packages .packages-main .bottom_pack .pack_cta .btn-od:hover span {
+  color: #ffffff;
+}
+
+/*COMBO PACKAGE*/
+.packages .packages-main.ComboPack .price {
+  flex-direction: row;
+  background: url(images/comboPrice-bg.html);
+}
+
+.packages .packages-main.ComboPack .price .cutt strong {
+  font-size: 35px;
+  margin-right: 30px;
+  color: #b5b5b5;
+}
+
+.packages .packages-main.ComboPack .price .cutt strong sup {
+  font-size: 20px;
+  color: #b5b5b5;
+}
+
+.packages .packages-main.ComboPack .price .cutt strong:before {
+  content: "";
+  background: #0B3F33;
+  width: 110px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 999;
+}
+
+.packages .packages-main.ComboPack .price .cutt {
+  position: relative;
+}
+
+.packages .packages-main.ComboPack .desc ul li {
+  position: relative;
+  font-size: 14px;
+  color: #b2b2b2;
+  list-style: none;
+  padding-left: 30px;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+}
+
+.packages .packages-main.ComboPack .desc ul li span {
+  display: block;
+  color: #a58a8a;
+}
+
+.packages .packages-main.ComboPack .desc ul li:before {
+  content: "";
+  background: url(images/icon-packlist.png);
+  width: 17px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.packages .packages-main.ComboPack .title:before {
+  content: "";
+  background: url(images/off.html);
+  width: 170px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.packages .packages-main.ComboPack .desc {
+  padding: 30px 20px 30px;
+  text-align: left;
+}
+
+.packages .packages-main.ComboPack {
+  background: #101010;
+}
+
+.packages .packages-main.ComboPack .desc ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.packages .packages-main.ComboPack .desc.combobottom {
+  padding: 0 15px;
+}
+
+.packages .packages-main.ComboPack .desc ul li:last-child {
+  margin-bottom: 0;
+}
+
+.packages .packages-main.ComboPack .desc h4 {
+  color: #fff;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.packages .packages-main.ComboPack .bottom_pack .bottom {
+  margin: 15px 0;
+}
+
+.packages .packages-main.ComboPack .bottom_pack {
+  padding: 10px 15px;
+}
+
+.packages .packages-main.ComboPack .moneyPack {
+  text-align: center;
+}
+
+.packages .packages-main .moneyPack p:last-child {
+  margin-right: 0;
+  font-size: 1.5vh;
+
+}
+
+.packages .packages-main .moneyPack p strong {
+  text-transform: uppercase;
+  color: #0B3F33;
+}
+
+.packages .packages-main .moneyPack p {
+  margin-right: 30px;
+}
+	</style>
+</head>
+
+<body>
+	<div id="preloader">
+		<div class="loader">
+			<div class="circle"></div>
+			<div class="circle"></div>
+			<div class="circle"></div>
+		</div>
+	</div>
+	<main class="main blog_page"> <div class="header">
+			<div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+			<div class="overlay" id="overlay">
+				<nav class="overlay-menu">
+					<ul>   
+                      <li><a href="index-2.html">Home</a></li>
+						<li><a href="portfolio.html">view portfolio</a></li>
+						<li><a href="packages.html">view packages</a></li>
+						<li><a href="#" class="popup-btn" data-popup="popup-reg">get a quote</a></li>                      
+                      	<li><a class="noicon" href="tel:9729542351">call: +92 (330) 224-2165 </a><br><br><a class="noicon" href="tel:923302242165">+92 (330) 224-2165 </a> </li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__left" >
+				<div class="header__letter opac">
+					<a href="index-2.html"> <img src="img/logo-head.png" alt="" srcset=""> </a>
+				</div>
+			</div>
+			<div class="header__right">
+				<div class="header__btn">
+					<div class="btn-container">
+						<a href="index-2.html">
+							<button class="pulse"> <span class="text">GO BACK</span>
+								<div class="icon-container">
+									<div class="icon icon--left">
+										<svg style="rotate: 180deg;">
+											<use xlink:href="#arrow-right"></use>
+										</svg>
+									</div>
+									<div class="icon icon--right">
+										<svg style="rotate: 180deg;">
+											<use xlink:href="#arrow-right"></use>
+										</svg>
+									</div>
+								</div>
+							</button>
+						</a>
+					</div>
+					<svg style="display: none;">
+						<symbol id="arrow-right" viewBox="0 0 20 10">
+							<path d="M14.84 0l-1.08 1.06 3.3 3.2H0v1.49h17.05l-3.3 3.2L14.84 10 20 5l-5.16-5z"></path>
+						</symbol>
+					</svg>
+				</div>
+			</div>
+		</div>		<!--  -->
+		<section id="fancyTabWidget" class=" t-tabs packages">
+			<ul class="nav nav-tabs fancyTabs" role="tablist">
+				<li class="tab fancyTab active">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab0" href="#tabBody0" role="tab" aria-controls="tabBody0" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-pencil-square-o"></span><span class="hidden-xs">Logo</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+				<li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab1" href="#tabBody1" role="tab" aria-controls="tabBody1" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-file-code-o"></span><span class="hidden-xs">Website</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+				<li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab2" href="#tabBody2" role="tab" aria-controls="tabBody2" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-cart-arrow-down"></span><span class="hidden-xs">E-Commerce</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+				<li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab3" href="#tabBody3" role="tab" aria-controls="tabBody3" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-search"></span><span class="hidden-xs">SEO</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+				<li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab4" href="#tabBody4" role="tab" aria-controls="tabBody4" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-bullhorn"></span><span class="hidden-xs">Description</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+				<li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab5" href="#tabBody5" role="tab" aria-controls="tabBody5" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-file-video-o"></span><span class="hidden-xs">Video</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+                <li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab6" href="#tabBody6" role="tab" aria-controls="tabBody6" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-paperclip"></span><span class="hidden-xs">Branding</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+                <li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab7" href="#tabBody7" role="tab" aria-controls="tabBody7" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-hdd-o"></span><span class="hidden-xs">Hosting</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+                <li class="tab fancyTab">
+					<div class="arrow-down">
+						<div class="arrow-down-inner"></div>
+					</div>
+					<a id="tab8" href="#tabBody8" role="tab" aria-controls="tabBody8" aria-selected="true" data-toggle="tab" tabindex="0"><span class="fa fa-money"></span><span class="hidden-xs">PPC</span></a>
+					<div class="whiteBlock"></div>
+				</li>
+			</ul>
+			<div id="myTabContent" class="tab-content fancyTabContent" aria-live="polite">
+				<div class="tab-pane active" id="tabBody0" role="tabpanel" aria-labelledby="tab0" aria-hidden="false" tabindex="0">
+					<div>
+						<div class="row package-box-container">
+							<!--LOGO PACKAGES-->
+							<div class="">
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 0.1s;  animation-name: bounceIn;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_BASIC</div>
+                            <div class="title">
+                                <h2>
+                                    BASIC LOGO <br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>34.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>110</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">3 Logo Design Concepts</li>
+                                    <li>1 Dedicated Designer</li>
+                                    <li>2 Revisions</li>
+                                    <li>4 Hrs TAT</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" ><span>PURCHASE</span></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 0.3s;  animation-name: bounceIn;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_STARTUP</div>
+                            <div class="title">
+                                <h2>
+                                    IDEAL LOGO <br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>74.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>299</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">6 Logo Design Concepts</li>
+                                    <li>2 Dedicated Designers</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>24 - 48 Hrs TAT</li>
+                                    <li>Final Files (JPEG, PNG, PDF)</li>
+                                     <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" ><span>PURCHASE</span></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 0.5s;  animation-name: bounceIn;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_PROFESSIONAL</div>
+                            <div class="title">
+                                <h2>
+                                    STRIKING LOGO<br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>134.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>420</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">8 Logo Design Concepts</li>
+                                    <li>3 Dedicated Designers</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>24 - 48 Hrs TAT</li>
+                                    <li>Final Files (Ai, PSD, EPS, JPEG, PNG, PDF)</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>100% Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" ><span>PURCHASE</span></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 0.7s;  animation-name: none;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_ELITE</div>
+                            <div class="title">
+                                <h2>
+                                    LOGO STATIONERY <br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>149.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>730</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">8 Logo Design Concepts</li>
+                                    <li>4 Dedicated Designers</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>24 - 48 Hrs TAT</li>
+                                    <li>Final Files (Ai, PSD, EPS, JPEG, PNG, PDF)</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>Final Files (Ai, PSD, EPS, JPEG, PNG, PDF)</li>
+                                    <li class="last">Stationery Design (Business Card, Letterhead, Envelope, MS Word Letterhead)</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Infinite" data-get_pkg_price="199" data-get_pkg_type="logo" ><span>PURCHASE</span></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 0.9s;  animation-name: none;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_BUSINESS</div>
+                            <div class="title">
+                                <h2>
+                                    ILLUSTRATIVE LOGO <br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>199.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>1100</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">1 Illustrative Logo Concept</li>
+                                    <li>Concepts by Professional Artist</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>24 - 48 Hrs TAT</li>
+                                    <li>Final Files (Ai, PSD, EPS, JPEG, PNG, PDF)</li>
+                                    <li>FREE Icon Design</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>100% Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Platinum" data-get_pkg_price="299" data-get_pkg_type="logo" ><span>PURCHASE</span></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 1.1s;  animation-name: none;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_PLATINUM</div>
+                            <div class="title">
+                                <h2>
+                                    3D LOGO<br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>289.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>2400</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">2 Unique 3D Logo Concepts</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>Light Effects and VFX</li>
+                                    <li>Concept by Professional Artist</li>
+                                    <li>24 - 48 Hrs TAT</li>
+                                    <li>Final Files (Ai, PSD, EPS, JPEG, PNG, PDF)</li>
+                                    <li>FREE Icon Design</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>100% Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Enterprise" data-get_pkg_price="499" data-get_pkg_type="logo" >
+                                        <span>PURCHASE</span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 1.1s;  animation-name: none;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_PLATINUM</div>
+                            <div class="title">
+                                <h2>
+                                    MASCOT LOGO<br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>449.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>2400</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">1 Unique Mascot Concept</li>
+                                    <li>Concept by Award-Winning Artist</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>24 - 48 Hrs TAT</li>
+                                    <li>Final Files (Ai, PSD, EPS, JPEG, PNG, PDF)</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>100% Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Enterprise" data-get_pkg_price="499" data-get_pkg_type="logo" >
+                                        <span>PURCHASE</span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-box">
+                        <div class="packages-main wow bounceIn" style="animation-delay: 1.1s;  animation-name: none;" data-package-box="">
+                            <div class="productSku" style="display: none;">LOGO_PLATINUM</div>
+                            <div class="title">
+                                <h2>
+                                    LOGO WEB COMBO<br>
+                                    PACKAGE
+                                </h2>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                            </div>
+                            <div class="price">
+                                <div>
+                                    <strong><sup>$</sup>499.99</strong>
+                                </div>
+                                <!--<div class="bPrice">                            -->
+                                <!--    <p><span>$</span>2400</p>-->
+                                <!--</div>    -->
+                            </div>
+                            <div class="desc_section" data-package-scroll="">
+                                <ul>
+                                    <li class="first">6 logo design Concepts</li>
+                                    <li>Concepts By Award-Winning Artist</li>
+                                    <li>1 Unique Mascot Concept</li>
+                                    <li>Unlimited Revisions</li>
+                                    <li>24 - 48 Hrs TAT</li>
+                                    <li>Final Files (Ai, PSD, EPS, JPEG, PNG, PDF)</li>
+                                    <li>Free Bussiness Card Design</li>
+                                    <li>Website Development</li>
+                                    <li>Up-to 3 pages Website</li>
+                                    <li>Complete w3C certified HTML</li>
+                                    <li>Content Management System</li>
+                                    <li>Search Engine Submission</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>100% Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                                </ul>
+                            </div>
+                            <div class="moneyPack">
+                                <p>100% Approval Assurance</p>
+                            </div>
+                            <div class="bottom_pack">
+                                <div class="pack_cta">
+                                    <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Enterprise" data-get_pkg_price="499" data-get_pkg_type="logo" >
+                                        <span>PURCHASE</span>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+							<!---->
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane  " id="tabBody1" role="tabpanel" aria-labelledby="tab1" aria-hidden="true" tabindex="0">
+					<!--WEB-->
+					<div class="row">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s;  animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">WEBSITE_BASIC</div>
+                        <div class="title">
+                            <h2>BASIC WEBSITE <br>PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>229.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>499</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">3 Pages 100% Custom Website Design</li>
+                                <li>Complete Web Development</li>
+                                <li>Unlimited Revisions</li>
+                                <li>3 Royalty-Free Stock Images</li>
+                                <li>1 jQuery slider banner</li>
+                                <li>Lead Capturing Form</li>
+                                <li>Complete W3C Certified HTML</li>
+                                <li>Complete Deployment</li>
+                                <li>100% Ownership Rights</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li>100% Unique Design Guarantee</li>
+                                <li>100% Money-Back Guarantee</li>
+                                <li>Combo Add on: $299</li>
+                                <li class="last">24-48 Hrs TAT</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s;  animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">WEBSITE_STARTUP</div>
+                        <div class="title">
+                            <h2>STARTER WEBSITE <br>PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>499.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>780</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">6 Pages 100% Custom Website Design</li>
+                                <li>Unlimited Revisions</li>
+                                <li>3 jQuery slider banner</li>
+                                <li>Lead Capturing Form</li>
+                                <li>Complete W3C Certified HTML</li>
+                                <li>FREE Google Friendly Sitemap</li>
+                                <li>Complete Website Development </li>
+                                <li>6 Royalty-Free Stock Images</li>
+                                <li>FREE Icon Design</li>
+                                <li>Complete Deployment</li>
+                                <li>Mobile Responsive (Additional Charges)</li>
+                                <li class="last">CMS (Additional charges)</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s;  animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">WEBSITE_PROFESSIONAL</div>
+                        <div class="title">
+                            <h2>PROFESSIONAL WEBSITE <br>PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>799.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>1640</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">10 Pages 100% Custom Website Design</li>
+                                <li>8 Royalty-Free Stock Images</li>
+                                <li>5 jQuery slider banner</li>
+                                <li>Complete W3C Certified HTML</li>
+                                <li>Free Icon Design</li>
+                                <li>3 Website Banner Design</li>
+                                <li>Mobile Responsive</li>
+                                <li>Complete Development &amp; Deployment</li>
+                                <li>Unlimited Revisions</li>
+                                <li>Lead Capturing Form</li>
+                                <li>FREE Google Friendly Sitemap</li>
+                                <li>CMS - Content Management System</li>
+                                <li class="last">Complete Deployment</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.7s;  animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">WEBSITE_ELITE</div>
+                        <div class="title">
+                            <h2>BUSINESS WEBSITE<br>PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>1399.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2699</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">20 Pages Custom Website Design</li>
+                                <li>Conceptual and Dynamic Website</li>
+                                <li>Mobile Responsive</li>
+                                <li>CMS - Content Management System</li>
+                                <li>Online Reservation/Appointment Tool</li>
+                                <li>Online Payment Integration</li>
+                                <li>Custom Dynamic Forms</li>
+                                <li>Lead Capturing Form</li>
+                                <li>Striking Hover Effect</li>
+                                <li>Newsletter Subscription (optional)</li>
+                                <li>Newsfeed Integration</li>
+                                <li>Social Media Integration</li>
+                                <li>Stock Photos</li>
+                                <li>Unique Banner Design</li>
+                                <li>jQuery Slider Banner</li>
+                                <li>Free Google Friendly Sitemap</li>
+                                <li>48 to 72 hours TAT</li>
+                                <li>Complete Deployment</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li>100% Unique Design Guarantee</li>
+                                <li class="last">100% Money-Back Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Infinite" data-get_pkg_price="199" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.9s;  animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">WEBSITE_IDENTITY</div>
+                        <div class="title">
+                            <h2>INTERACTIVE WEBSITE<br>PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>1799.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>3599</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Unlimited Pages 100% Custom Design</li>
+                                <li>unlimited Revision</li>
+                                <li>Custom Made, Interactive, Dynamic &amp; High-End Design</li>
+                                <li>Content Management System (CMS)</li>
+                                <li>Multi-User Login</li>
+                                <li>2 -way Login Website</li>
+                                <li>Custom Coding</li>
+                                <li>jQuery Slider Banner</li>
+                                <li>10 Custom Made Banner Design</li>
+                                <li>10 Stock Images</li>
+                                <li>Special Hover Effects</li>
+                                <li>Online Appointment/Scheduling/Online Ordering Integration</li>
+                                <li>Online Payment Integration</li>
+                                <li>Custom Dynamic Forms</li>
+                                <li>Signup Area (For Newsletters, Offers, etc.)</li>
+                                <li>Search Bar</li>
+                                <li>Live Feeds of Social Networks integration</li>
+                                <li>Mobile Responsive</li>
+                                <li>Free Google Friendly Sitemap</li>
+                                <li>Search Engine Submission</li>
+                                <li>Complete W3C Certified HTML</li>
+                                <li>Industry Specified Team of Expert Designers and Developers</li>
+                                <li>Complete Deployment</li>
+                                <li>Dedicated Accounts Manager</li>
+                                <li>100% Ownership Rights</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li>100% Unique Design Guarantee</li>
+                                <li class="last">100% Money-back Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Platinum" data-get_pkg_price="299" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 1.1s;  animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">WEBSITE_CORPORATE</div>
+                        <div class="title">
+                            <h2>ENTERPRISE WEBSITE <br>PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>3999.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>6799</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Complete Custom Design &amp; Development</li>
+                                <li>Dating Portal, Job Portal, Professional Network Portal, Social Network Portal, Restaurant Portal, Medical Portal, Enterprise Portal (Any One)</li>
+                                <li>Unique, User Friendly, Interactive, Dynamic, High-End UI Design</li>
+                                <li>Unlimited Banner Designs</li>
+                                <li>Interactive Sliding Banners</li>
+                                <li>Special Hover Effects</li>
+                                <li>Unlimited Stock Images</li>
+                                <li>User Signup Area</li>
+                                <li>Client/User Dashboard Area</li>
+                                <li>Custom Coding and Development</li>
+                                <li>Content Management System (Custom)</li>
+                                <li>Online Appointment/Scheduling/Online Ordering Integration</li>
+                                <li>Online Payment Integration</li>
+                                <li>Multi-Lingual</li>
+                                <li>Custom Dynamic Forms</li>
+                                <li>Shopping Cart Integration</li>
+                                <li>Complete Database Creation</li>
+                                <li>Signup Automated Email Authentication</li>
+                                <li>Web Traffic Analytics Integration</li>
+                                <li>3rd Party API Integrations</li>
+                                <li>Signup Area (For Newsletters, Offers, etc.)</li>
+                                <li>Search Bar for Easy Search</li>
+                                <li>Live Feeds of Social Networks integration</li>
+                                <li>Search Engine Submission</li>
+                                <li>Module-wise Architecture</li>
+                                <li>Extensive Admin Panel</li>
+                                <li>Award-Winning Team of Expert Designers and Developers</li>
+                                <li>Complete Deployment</li>                              
+                                <li>Complete Source Files</li>
+                                <li>Dedicated project Manager</li>
+                                <li>100% Ownership Rights</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li class="last">100% Money-back Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Enterprise" data-get_pkg_price="499" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+				</div>
+				<div class="tab-pane  " id="tabBody2" role="tabpanel" aria-labelledby="tab2" aria-hidden="true" tabindex="0">
+					<div class="row" style="justify-content: center;">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STARTUP_ECOMM</div>
+                        <div class="title">
+                            <h2>E-COMMERCE LITE WEBSITE<br>PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>799.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>1588</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">6 Pages Custom Web Design</li>
+                              <li>Complete Development &amp; Deployment</li>
+                              <li>8 Expert Designers &amp; Developers</li>
+                              <li>Up-to 5 Products</li>
+                              <li>Content Management System (CMS)</li>
+                              <li>Full Shopping Cart Integration</li>
+                              <li>Payment Module Integration</li>
+                              <li>Product Reviews</li>
+                              <li>2 Promotional Banners</li>
+                              <li>Unlimited Revisions</li>
+                              <!--<li>Up-to 5 Products</li>-->
+                              <!--<li>Content Management System (CMS)</li>-->
+                              <!--<li>Full Shopping Cart Integration</li>-->
+                              <!--<li>Payment Module Integration</li>-->
+                              <!--<li>Product Reviews</li>-->
+                              <!--<li>2 Promotional Banners</li>-->
+                              <!--<li>Unlimited Revisions</li>-->
+                              <li>Free Icon Design</li>
+                              <li>Free Google Friendly Sitemap</li>
+                              <li>100% Ownership Rights</li>
+                              <li>100% Satisfaction Guarantee</li>
+                              <li>100% Unique Design Guarantee</li>
+                              <li>100% Money-Back Guarantee </li>
+                              <li class="last">Combo Add on: $299</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">PROFESSIONAL_ECOMM</div>
+                        <div class="title">
+                            <h2>PROFESSIONAL E-COMMERCE WEBSITE PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>1399.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2778</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">10 Pages 100% Custom Website Design</li>
+                      <li>Complete Development &amp; Deployment</li>
+                      <li>10 Award-Winning Designers &amp; Developers</li>
+                      <li>Up-to 100 Products</li>
+                      <li>Mini Shopping Cart Integration</li>
+                      <li>Online Ordering Integration</li>
+                      <li>Online Payment Integration</li>
+                      <li>Product Reviews</li>
+                      <li>Content Management System</li>
+                      <li>Interactive Sliding Banners</li>
+                      <li>10 Stock Images</li>
+                      <li>Special Hover Effects</li>
+                      <li>03 Banner Designs</li>
+                      <li>Unlimited Revisions</li>
+                      <li> Custom, Interactive &amp; Dynamic Design</li>
+                      <li> Google Friendly Sitemap</li>
+                      <li> Complete W3C Certified HTML</li>
+                      <li> Search Engine Submission</li>
+                      <li>100% Ownership Rights</li>
+                      <li>100% Satisfaction Guarantee</li>
+                      <li>100% Unique Design Guarantee</li>
+                      <li>100% Money-Back Guarantee </li>
+                      <li class="last">Combo Add on: $299</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">ELITE_ECOMM</div>
+                        <div class="title">
+                            <h2>DYNAMIC E-COMMERCE WEBSITE PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>1799.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>5300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Unlimited Pages 100% Custom Design</li>
+                      <li>Unlimited Revisions</li>
+                      <li> Custom Made, Interactive, Dynamic &amp; High-End-Design</li>
+                      <li> Up-to 1000 Products</li>
+                      <li> Full Shopping Cart Integration</li>
+                      <li> Online Ordering Integration</li>
+                      <li> Online Payment Integration</li>
+                      <li> Multi-User Login</li>
+                      <li> 2-way Login Website</li>
+                      <li> Easy Product Search</li>
+                      <li> Product Reviews</li>
+                      <li> Multi-Lingual</li>
+                      <li> Custom Dynamic Forms</li>
+                      <li> Signup Area (For Newsletters, Offers, etc.)</li>
+                      <li> Search Bar</li>
+                      <li> Content Management System (CMS)</li>
+                      <li> Interactive Sliding Banners</li>
+                      <li> Mobile Responsive</li>
+                      <li> 10 Custom Made Banner Designs</li>
+                      <li> 10 Stock Images</li>
+                      <li> Special Hover Effects</li>
+                      <li> jQuery Slider Banner</li>
+                      <li> Complete W3C Certified HTML</li>
+                      <li> Industry Specified Team of Expert Designers and Developers</li>
+                      <li> Complete Deployment</li>
+                      <li> Dedicated Accounts Manager</li>
+                      <li> 100% Ownership Rights</li>
+                      <li> 100% Satisfaction Guarantee</li>
+                      <li> 100% Unique Design Guarantee</li>
+                      <li class="last"> 100% Money-Back Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; animation-name: none;" data-package-box="">
+                        <div class="productSku" style="display: none;">ELITE_ECOMM</div>
+                        <div class="title">
+                            <h2>BUSINESS E-COMMERCE WEBSITE PACKAGE</h2>
+                            <p>Suitable for potential brand revamps for companies</p>
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>2499.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>5300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Unlimited Pages 100% Custom Design</li>
+                      <li> Complete Development &amp; Deployment</li>
+                      <li> Award-Winning Designers &amp; Developers</li>
+                      <li> Up-to 2000 Products</li>
+                      <li> Full Shopping Cart Integration</li>
+                      <li> Online Ordering Integration</li>
+                      <li> Online Payment Integration</li>
+                      <li> Multi-User Login</li>
+                      <li> 2-way Login Website</li>
+                      <li> Easy Product Search</li>
+                      <li> Product Reviews</li>
+                      <li> Multi-Lingual</li>
+                      <li> Signup Area (For Newsletters, Offers, etc.)</li>
+                      <li> Search Bar</li>
+                      <li> Content Management System (CMS)</li>
+                      <li> Interactive Sliding Banners</li>
+                      <li> 15 Stock Images</li>
+                      <li> Special Hover Effects</li>
+                      <li> Up to 05 Banner Designs</li>
+                      <li> Unlimited Revisions</li>
+                      <li> FREE Icon Design</li>
+                      <li> Google Friendly Sitemap</li>
+                      <li> Custom, Interactive &amp; Dynamic Design</li>
+                      <li> Customized WordPress &amp; PHP Development</li>
+                      <li> Multi-Lingual (Optional)</li>
+                      <li> Custom Dynamic Forms (Optional)</li>
+                      <li> Signup Area (For Newsletters, Offers etc.)</li>
+                      <li> Search Bar</li>
+                      <li> Live Feeds of Social Networks integration</li>
+                      <li> Search Engine Submission</li>
+                      <li> Complete W3C Certified HTML</li>
+                      <li> Industry Specified Team of Expert Designers and Developers</li>
+                      <li> Complete Deployment</li>
+                      <li> Dedicated Accounts Manager</li>
+                      <li> 100% Ownership Rights</li>
+                      <li> 100% Satisfaction Guarantee</li>
+                      <li> 100% Unique Design Guarantee</li>
+                      <li class="last"> 100% Money-Back Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+				</div>
+				<div class="tab-pane  " id="tabBody3" role="tabpanel" aria-labelledby="tab3" aria-hidden="true" tabindex="0">
+					<div class="row">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STARTUP_Description</div>
+                        <div class="title">
+                            <h2>SEO ECONOMY PACKAGE</h2>
+                            <!--<p>Description + Description</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>1,299</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Initial Research Analysis</li>
+                                    <li>Business Analysis</li>
+                                    <li>Consumer Analysis</li>
+                                    <li>Competitor Analysis</li>
+                                    <li>10 Selected Keywords Targeting</li>
+                                    <li>15 Pages Keyword Targeted</li>
+                                    <li>Keywords Research and Analysis</li>
+                                    <li>On-Page Description</li>
+                                    <li>On-page Optimization</li>
+                                    <li>Meta Title Optimization</li>
+                                    <li>Meta Description Optimization</li>
+                                    <li>Source Code Cleanup and Optimization</li>
+                                    <li>Image Optimization</li>
+                                    <li>Link Building Optimization</li>
+                                    <li>EXML Sitemap Setup</li>
+                                    <li>Google Webmaster Code Creation</li>
+                                    <li>Google Analytics Code Creation</li>
+                                    <li>1 Image Submission (Initial)</li>
+                                    <li>1 Slide Share Submission Content (Initial)</li>
+                                    <li>5 Business Listing</li>
+                                    <li>5 Profile Creation</li>
+                                    <li>5 Forum Posting</li>
+                                    <li>5 Blog Commenting</li>
+                                    <li>2 Press Release</li>
+                                    <li>Social Bookmarks</li>
+                                    <li>Important HTML Tags (H1, H2, H3)</li>
+                                    <li>Robots.txt Creation</li>
+                                    <li>Image ALT TEXT</li>
+                                    <li>10 Articles Writing/Submission (Divided on Total Number of Months)</li>
+                                    <li>15 Blogs Posts Writing and Submission (Divided by Total of Months)</li>
+                                    <li>Off-Page Optimization</li>
+                                    <li>Social Bookmarking</li>
+                                    <li>Slide Share Marketing</li>
+                                    <li>Forums/FAQ’s</li>
+                                    <li>Link Building</li>
+                                    <li>Directory Submission</li>
+                                    <li>Local Business Listings</li>
+                                    <li>Reporting</li>
+                                    <li>Monthly Reporting</li>
+                                    <li>On-Phone Reporting</li>
+                                    <li>Email Reporting</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STANDARD_Description</div>
+                        <div class="title">
+                            <h2>SEO ECONOMY PLUS PACKAGE</h2>
+                            <!--<p>Description + Description</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>2,399</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>3300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Initial Research Analysis</li>
+                                    <li>Business Analysis</li>
+                                    <li>Consumer Analysis</li>
+                                    <li>Competitor Analysis</li>
+                                    <li>15 Selected Keywords Targeting</li>
+                                    <li>15 Pages Keyword Targeted</li>
+                                    <li>Keywords Research and Analysis</li>
+                                    <li>On-Page Description</li>
+                                    <li>On-page Optimization</li>
+                                    <li>Meta Title Optimization</li>
+                                    <li>Meta Description Optimization</li>
+                                    <li>Source Code Cleanup and Optimization</li>
+                                    <li>Image Optimization</li>
+                                    <li>Link Building Optimization</li>
+                                    <li>EXML Sitemap Setup</li>
+                                    <li>Google Webmaster Code Creation</li>
+                                    <li>Google Analytics Code Creation</li>
+                                    <li>5 Image Submission (Initial)</li>
+                                    <li>5 Slide Share Submission Content (Initial)</li>
+                                    <li>10 Business Listing</li>
+                                    <li>10 Profile Creation</li>
+                                    <li>10 Forum Posting</li>
+                                    <li>10 Blog Commenting</li>
+                                    <li>4 Press Release</li>
+                                    <li>10 Infographics Submission</li>
+                                    <li>Social Bookmarks</li>
+                                    <li>Important HTML Tags (H1, H2, H3)</li>
+                                    <li>Robots.txt Creation</li>
+                                    <li>Image ALT TEXT</li>
+                                    <li>20 Articles Writing/Submission (Divided on Total Number of Months)</li>
+                                    <li>30 Blogs Posts Writing and Submission (Divided by Total of Months)</li>
+                                    <li>Off-Page Optimization</li>
+                                    <li>Social Bookmarking</li>
+                                    <li>Slide Share Marketing</li>
+                                    <li>Forums/FAQ’s</li>
+                                    <li>Link Building</li>
+                                    <li>Directory Submission</li>
+                                    <li>Local Business Listings</li>
+                                    <li>Reporting</li>
+                                    <li>Monthly Reporting</li>
+                                    <li>On-Phone Reporting</li>
+                                    <li>Email Reporting</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">PREMIUM_Description</div>
+                        <div class="title">
+                            <h2>SEO BUSINESS PRO PACKAGE</h2>
+                            <!--<p>Description + Description</p>-->
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>6,999</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>4000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Initial Research Analysis</li>
+                                    <li>Business Analysis</li>
+                                    <li>Consumer Analysis</li>
+                                    <li>Competitor Analysis</li>
+                                    <li>25 Selected Keywords Targeting</li>
+                                    <li>25 Pages Keyword Targeted</li>
+                                    <li>Keywords Research and Analysis</li>
+                                    <li>On-Page Description</li>
+                                    <li>On-page Optimization</li>
+                                    <li>Meta Title Optimization</li>
+                                    <li>Meta Description Optimization</li>
+                                    <li>Source Code Cleanup and Optimization</li>
+                                    <li>Image Optimization</li>
+                                    <li>Link Building Optimization</li>
+                                    <li>EXML Sitemap Setup</li>
+                                    <li>Google Webmaster Code Creation</li>
+                                    <li>Google Analytics Code Creation</li>
+                                    <li>1 Image Submission (Initial)</li>
+                                    <li>1 Slide Share Submission Content (Initial)</li>
+                                    <li>15 Business Listing</li>
+                                    <li>15 Profile Creation</li>
+                                    <li>15 Forum Posting</li>
+                                    <li>15 Blog Commenting</li>
+                                    <li>6 Press Release</li>
+                                    <li>15 Infographics Submission</li>
+                                    <li>Social Bookmarks</li>
+                                    <li>Important HTML Tags (H1, H2, H3)</li>
+                                    <li>Robots.txt Creation</li>
+                                    <li>Image ALT TEXT</li>
+                                    <li>40 Articles Writing/Submission (Divided on Total Number of Months)</li>
+                                    <li>60 Blogs Posts Writing and Submission (Divided by Total of Months)</li>
+                                    <li>Off-Page Optimization</li>
+                                    <li>Social Bookmarking</li>
+                                    <li>Slide Share Marketing</li>
+                                    <li>Forums/FAQ’s</li>
+                                    <li>Link Building</li>
+                                    <li>Directory Submission</li>
+                                    <li>Local Business Listings</li>
+                                    <li>Reporting</li>
+                                    <li>Monthly Reporting</li>
+                                    <li>On-Phone Reporting</li>
+                                    <li>Email Reporting</li>
+                                    <li>Dedicated Account Manager</li>
+                                    <li>Unique Design Guarantee</li>
+                                    <li>24/7 Customer Support</li>
+                                    <li class="last">100% Satisfaction Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+				</div>
+				<div class="tab-pane  " id="tabBody4" role="tabpanel" aria-labelledby="tab4" aria-hidden="true" tabindex="0">
+					<div class="row">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STARTUP_SEO</div>
+                        <div class="title">
+                            <h2>BASIC PACKAGE</h2>
+                            <!--<p>Description + SEO</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>249.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Account Management – 2</li>
+                                <li> Creation Of Campaign – 1</li>
+                                <li> Facebook Business Manager Set Up</li>
+                                <li> Custom Audience Creation</li>
+                                <li> Facebook Analytics Report Creation</li>
+                                <li> Ad Campaign Monitoring</li>
+                                <li> Customization Of Ad Placements</li>
+                                <li> Traffic Monitoring</li>
+                                <li> Monthly Report</li>
+                                <li> Audience Research</li>
+                                <li> Instagram Ads Creative Creation &amp; Design</li>
+                                <li class="last"> Instagram Ads Monitoring And Management</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STANDARD_SEO</div>
+                        <div class="title">
+                            <h2>PROFESSIONAL PACKAGE</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>499.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>3300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Account Management – 3</li>
+                                <li> Creation Of Campaign – 3</li>
+                                <li> Facebook Business Manager Set Up</li>
+                                <li> Pixel Installation</li>
+                                <li> Custom Conversion Creation</li>
+                                <li>Remarketing</li>
+                                <li> Creation Of Automated Rules</li>
+                                <li> Facebook Analytics Report Creation</li>
+                                <li> Ad Campaign Monitoring</li>
+                                <li> Instant Experience Ads Creation</li>
+                                <li> Customization Of Ad Placements</li>
+                                <li> Traffic Monitoring</li>
+                                <li> Monthly Report</li>
+                                <li> Audience Research</li>
+                                <li> Instagram Ads Creative Creation &amp; Design</li>
+                                <li> Instagram Ads Monitoring And Management</li>
+                                <li> Campaign Manager Account Set Up</li>
+                                <li> Creation Of Custom Conversion</li>
+                                <li> Ads Monitoring</li>
+                                <li> Youtube Ad Account Set Up</li>
+                                <li> Skippable In-Stream Ads</li>
+                                <li> Non-Skippable In-Stream Ads</li>
+                                <li> Bumper Ads</li>
+                                <li> Detailed Audience Creation</li>
+                                <li> Custom Audience Creation</li>
+                                <li> A/B Testing Of Targeting</li>
+                                <li> Remarketing Video Ads</li>
+                                <li> Tweet Engagement Ads</li>
+                                <li> Awareness Ads</li>
+                                <li> Follower Ads</li>
+                                <li class="last"> Audience Creation</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">PREMIUM_SEO</div>
+                        <div class="title">
+                            <h2>ADVANCED PACKAGE</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>899.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>4000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Account Management – 5</li>
+                                <li> Creation Of Campaign – 6</li>
+                                <li> Facebook Business Manager Set Up</li>
+                                <li> Pixel Installation</li>
+                                <li> Custom Conversion Creation</li>
+                                <li>Remarketing</li>
+                                <li> Custom Audience Creation</li>
+                                <li> Creation Of Automated Rules</li>
+                                <li> Facebook Analytics Report Creation</li>
+                                <li> Ad Campaign Monitoring</li>
+                                <li> Catalogue Creation</li>
+                                <li> Dynamic Ads Creation</li>
+                                <li> Instant Experience Ads Creation</li>
+                                <li> Customization Of Ad Placements</li>
+                                <li> A/B Testing Of Ad Set, Creative And Placement</li>
+                                <li> Carousel And Collection Ads</li>
+                                <li> Traffic Monitoring</li>
+                                <li> Monthly Report</li>
+                                <li> Audience Research</li>
+                                <li> Instagram Ads Creative Creation &amp; Design</li>
+                                <li> Instagram Ads Monitoring And Management</li>
+                                <li> Campaign Manager Account Set Up</li>
+                                <li> LinkedIn Insight Tag Installation</li>
+                                <li> Creation Of Custom Conversion</li>
+                                <li> Ads Monitoring</li>
+                                <li> Youtube Ad Account Set Up</li>
+                                <li> Skippable In-Stream Ads</li>
+                                <li> Non-Skippable In-Stream Ads</li>
+                                <li> Bumper Ads</li>
+                                <li> Discovery Ads</li>
+                                <li> Youtube Video Sequence Ads</li>
+                                <li> Detailed Audience Creation</li>
+                                <li> A/B Testing Of Targeting</li>
+                                <li> Remarketing Video Ads</li>
+                                <li> Video Ads With Promotion Of Your Products</li>
+                                <li> Tweet Engagement Ads</li>
+                                <li> Video Or GIF View Ads</li>
+                                <li> Awareness Ads</li>
+                                <li> Website Conversion Ads</li>
+                                <li> In-stream Video View Ads</li>
+                                <li> Follower Ads</li>
+                                <li> App Install Ads</li>
+                                <li> App Reengagement</li>
+                                <li class="last"> Audience Creation</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+				</div>
+				<div class="tab-pane  " id="tabBody5" role="tabpanel" aria-labelledby="tab5" aria-hidden="true" tabindex="0">
+					<div class="row">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STARTUP_SEO</div>
+                        <div class="title">
+                            <h2>ABSOLUTE VIDEO PACKAGE</h2>
+                            <!--<p>Description + SEO</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>499.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">30s Duration</li>
+                                <li>Professional Script</li>
+                                <li>Storyboard</li>
+                                <li>Custom Graphics &amp; Characters</li>
+                                <li>Animation &amp; SFX</li>
+                                <li>Background Music</li>
+                                <li>Background Image</li>
+                                <li>Watermark logo</li>
+                                <li>Resolution – HD</li>
+                                <li>Voice Over Recording</li>
+                                <li>Sync Voice Over</li>
+                                <li>Unlimited Revisions</li>
+                                <li>Turnaround time 2-3 weeks</li>
+                                <li>Dedicated Account Manager</li>
+                                <li>Unique Design Guarantee</li>
+                                <li>24/7 Customer Support</li>
+                                <li class="last">100% Satisfaction Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STANDARD_SEO</div>
+                        <div class="title">
+                            <h2>OPTIMUM VIDEO PACKAGE</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>999.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>3300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Up-to 60s Duration</li>
+                                <li>Professional Script</li>
+                                <li>Storyboard</li>
+                                <li>Custom Graphics &amp; Characters</li>
+                                <li>Animation &amp; SFX</li>
+                                <li>Background Music</li>
+                                <li>Background Imagery</li>
+                                <li>Watermark Logo</li>
+                                <li>Resolution – HD</li>
+                                <li>Voice Over Recording</li>
+                                <li>Sync Voice Over</li>
+                                <li>Unlimited Revisions</li>
+                                <li>Turnaround time 3-4 weeks</li>
+                                <li>Dedicated Account Manager</li>
+                                <li>Unique Design Guarantee</li>
+                                <li>24/7 Customer Support</li>
+                                <li class="last">100% Satisfaction Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">PREMIUM_SEO</div>
+                        <div class="title">
+                            <h2>ULTIMATE VIDEO PACKAGE</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>1499.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>4000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Up-to 120s Duration</li>
+                                <li>Professional Script</li>
+                                <li>Storyboard</li>
+                                <li>Custom Graphics &amp; Characters</li>
+                                <li>Animation &amp; SFX</li>
+                                <li>Background Music</li>
+                                <li>Background Imagery</li>
+                                <li>Watermark Logo</li>
+                                <li>Resolution – HD</li>
+                                <li>Voice Over Recording</li>
+                                <li>Sync Voice Over</li>
+                                <li>Unlimited Revisions</li>
+                                <li>Turnaround time 4-6 weeks</li>
+                                <li>Dedicated Account Manager</li>
+                                <li>Unique Design Guarantee</li>
+                                <li>24/7 Customer Support</li>
+                                <li class="last">100% Satisfaction Guarantee</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+				</div>
+                <div class="tab-pane  " id="tabBody6" role="tabpanel" aria-labelledby="tab6" aria-hidden="true" tabindex="0">
+					<div class="row">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STARTUP_SEO</div>
+                        <div class="title">
+                            <h2>STARTUP COLLATERAL PACKAGE</h2>
+                            <!--<p>Description + SEO</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>99.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">2 Stationery Design Set</li>
+                                <li>FREE Fax Template</li>
+                                <li>Print Ready Formats</li>
+                                <li>UNLIMITED Revisions</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li class="last">100% Money Back Guarantee *</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STANDARD_SEO</div>
+                        <div class="title">
+                            <h2>COLLATERAL CLASSIC PACKAGE</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>199.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>3300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">2 Stationery Design Set</li>
+                                <li>UNLIMITED Revisions</li>
+                                <li>Flyer Design</li>
+                                <li>Brochure Design (Bi-fold/Tri-fold)</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li class="last">100% Money Back Guarantee *</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">PREMIUM_SEO</div>
+                        <div class="title">
+                            <h2>PREMIUM COLLATERAL PACKAGE</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>399.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>4000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Hat Design</li>
+                                <li>Invoice Design</li>
+                                <li>Email Signature Design</li>
+                                <li>2 Stationery Design Set</li>
+                                <li>Packaging Design</li>
+                                <li>UNLIMITED Revisions</li>
+                                <li>T-Shirt Design</li>
+                                <li>100% Satisfaction Guarantee</li>
+                                <li class="last">100% Money Back Guarantee *</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+				</div>
+                <div class="tab-pane  " id="tabBody7" role="tabpanel" aria-labelledby="tab7" aria-hidden="true" tabindex="0">
+					<div class="row">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STARTUP_SEO</div>
+                        <div class="title">
+                            <h2>1 year bronze website hosting and 6 months maintenance</h2>
+                            <!--<p>Description + SEO</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>699.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Dedicated Hosting Server</li>
+                              <li>150 GB Storage</li>
+                              <li>8 GB Ram</li>
+                              <li>Unmetered Traffic</li>
+                              <li>Standard SSL Certificate</li>
+                              <li>3 Free Email Accounts</li>
+                              <li>General Features 2 Hours / Month</li>
+                              <li>Text Updating (Client Supplied)</li>
+                              <li>Fixing Broken Links – 5/month</li>
+                              <li>Optimization of Client Supplied Images</li>
+                              <li>Setting up Email</li>
+                              <li class="last">24/7 Support Email/Ticket</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STANDARD_SEO</div>
+                        <div class="title">
+                            <h2>1 year silver website hosting and 6 months maintenance</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>899.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>3300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                 <li class="first">Dedicated Hosting Server</li>
+                              <li>1 Free Domain</li>
+                              <li>150 GB Storage</li>
+                              <li>8 GB Ram</li>
+                              <li>Unmetered Traffic</li>
+                              <li>Unlimited Websites and Databases</li>
+                              <li>Standard SSL Certificate</li>
+                              <li>5 Free Email Accounts</li>
+                              <li>General Features 5 Hours / Month</li>
+                              <li>Text Updating (Client Supplied)</li>
+                              <li>Fixing Broken Links – 5/month</li>
+                              <li>Optimization of Client Supplied Images</li>
+                              <li>Setting up Email</li>
+                              <li class="last">24/7 Support Email/Ticket</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">PREMIUM_SEO</div>
+                        <div class="title">
+                            <h2>1 year gold website hosting &amp;<br> 1 year website maintenance</h2>
+                            <!--<p>SEO + Description</p>-->
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>1,199.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>4000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first">Dedicated Hosting Server</li>
+                                <li>2 Free Domains</li>
+                                <li>250 GB Storage</li>
+                                <li>12 GB Ram</li>
+                                <li>Unmetered Traffic</li>
+                                <li>Unlimited Websites and Databases</li>
+                                <li>Standard SSL Certificate</li>
+                                <li>10 Free Email Accounts</li>
+                                <li>General Features 10 Hours / Month</li>
+                                <li>Text Updating (Client Supplied)</li>
+                                <li>Fixing Broken Links – 5/month</li>
+                                <li>Optimization of Client Supplied Images</li>
+                                <li>Setting up Email</li>
+                                <li class="last"> 24/7 Support Email/Ticket </li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+				</div>
+                <div class="tab-pane  " id="tabBody8" role="tabpanel" aria-labelledby="tab8" aria-hidden="true" tabindex="0">
+					<div class="row">
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.1s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STARTUP_PPC</div>
+                        <div class="title">
+                            <h2>BASIC PACKAGE</h2>
+                            <!--<p>PPC + PPC</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>139.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>2000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Campaign – 1</li>
+                                <li> AD Groups – 2</li>
+                                <li> Ad Copies – Maximum 6</li>
+                                <li> No. of Keywords-50</li>
+                                <li> Search Ads</li>
+                                <li> Conversion Tracking</li>
+                                <li> Competitor Analysis – Yes</li>
+                                <li> Keyword Optimization – Yes</li>
+                                <li> Ad Copy Optimization – Yes</li>
+                                <li> Reports – Monthly</li>
+                                <li class="last"> Support – Email, Chat</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Special" data-get_pkg_price="25" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main wow bounceIn" style="animation-delay: 0.3s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">STANDARD_PPC</div>
+                        <div class="title">
+                            <h2>ADVANCED PACKAGE</h2>
+                            <!--<p>PPC + PPC</p>-->
+                        </div>
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>249.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>3300</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Campaign – 2</li>
+                                    <li> AD Groups – 6</li>
+                                    <li> Ad Copies – Maximum 15</li>
+                                    <li> No. of Keywords-100</li>
+                                    <li> Search Ads</li>
+                                    <li> Display Ads</li>
+                                    <li> Gmail Ads</li>
+                                    <li> Video Ads</li>
+                                    <li> App Promotion Ads</li>
+                                    <li> Remarketing List</li>
+                                    <li> Conversion Tracking</li>
+                                    <li> Competitor Analysis – Yes</li>
+                                    <li> Keyword Optimization – Yes</li>
+                                    <li> Ad Copy Optimization – Yes</li>
+                                    <li> ROI Analysis</li>
+                                    <li> Landing Page Optimization</li>
+                                    <li> Reports – Monthly</li>
+                                    <li class="last"> Support – Email, Chat</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Startup" data-get_pkg_price="69" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-box">
+                    <div class="packages-main  wow bounceIn" style="animation-delay: 0.5s; visibility: visible; animation-name: bounceIn;" data-package-box="">
+                        <div class="productSku" style="display: none;">PREMIUM_PPC</div>
+                        <div class="title">
+                            <h2>ENTERPRISE PACKAGE</h2>
+                            <!--<p>PPC + PPC</p>-->
+                        </div>                        
+                        <div class="price">
+                            <div>
+                                <strong><sup>$</sup>414.99</strong>
+                            </div>
+                            <!--<div class="bPrice">                            -->
+                            <!--    <p><span>$</span>4000</p>-->
+                            <!--</div>    -->
+                        </div>
+                        <div class="desc_section" data-package-scroll="">
+                            <ul>
+                                <li class="first"> Campaign- 5</li>
+                                <li> AD Groups – 10</li>
+                                <li> Ad Copies – Maximum 50</li>
+                                <li> No. of Keywords-150</li>
+                                <li> Search Ads</li>
+                                <li> Display Ads</li>
+                                <li> Gmail Ads</li>
+                                <li> Video Ads</li>
+                                <li> Shopping Ads</li>
+                                <li> App Promotion Ads</li>
+                                <li> Remarketing List</li>
+                                <li> Conversion Tracking</li>
+                                <li> Competitor Analysis – Yes</li>
+                                <li> Keyword Optimization – Yes</li>
+                                <li> Ad Copy Optimization – Yes</li>
+                                <li> ROI Analysis</li>
+                                <li> Landing Page Optimization</li>
+                                <li> Reports – Monthly</li>
+                                <li> Dedicated Account Manager</li>
+                                <li class="last"> Support – Email, Chat</li>
+                            </ul>
+                        </div>
+                        <div class="moneyPack">
+                            <p>*NO MONTHLY OR ANY HIDDEN FEE*</p>
+                        </div>
+                        <div class="bottom_pack">
+                            <div class="pack_cta">
+                                <a href="mailto:sales@invergodesign.com" class="btn-od btn-cta"  data-get_pkg_name="Logo Plus" data-get_pkg_price="119" data-get_pkg_type="logo" onclick="popup_form()"><span>PURCHASE</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+				</div>
+			</div>
+		</section>
+		<!--  -->
+		<script type="text/javascript" src="script.html"></script> <footer>
+      <div id="popup-reg" class="popup">
+        <div class="popup-content">
+            <div class="event-header">
+              <h6>Don't be shy, say hi!</h6>
+            </div>
+            <form id="send" onsubmit="sendMail(event)" class="send-form">
+              <style>
+                .send-form {
+  
+                  display: block;
+                  margin-top: 0em;
+                  unicode-bidi: isolate;
+  
+                }
+              </style>
+              <div class="form-group">
+                <input type="text" placeholder="Enter full name" id="name" name="name" required="required">
+                <label for="name">
+                  <i class="fa fa-user"></i>
+                </label>
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="Enter your phone #" id="phone" name="phone" required="required">
+                <label for="phone">
+                  <i class="fa fa-phone"></i>
+                </label>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Enter your email" id="mail" name="mail" required="required">
+                <label for="mail">
+                  <i class="fa fa-envelope"></i>
+                </label>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="How can we help?" name="text" id="text"></textarea>
+                <label for="text" class="txt">
+                  <i class="fa fa-commenting"></i>
+                </label>
+              </div>
+              <button type="submit" class="main-btn-rect" name="text" value="Send">
+                <i class="fa fa-paper-plane"></i>Send</button>
+            </form>
+            <script type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            <script type="text/javascript">
+              (function () {
+                emailjs.init("1PVK2UiO9jFBli1m5");
+              })();
+            </script>
+            <script>
+              function sendMail(event) {
+                event.preventDefault();
+                var params = {
+                  name: document.getElementById("name").value,
+                  email: document.getElementById("mail").value,
+                  message: document.getElementById("text").value,
+                };
+  
+                console.log("params: ", params)
+                const serviceID = "service_esodozr";
+                const templateID = "template_ev1047e";
+  
+                emailjs.send(serviceID, templateID, params)
+                  .then(res => {
+                    document.getElementById("name").value = "";
+                    document.getElementById("mail").value = "";
+                    document.getElementById("text").value = "";
+                    console.log(res);
+                    alert("Your message sent successfully!!")
+  
+                  })
+                  .catch(err => console.log(err));
+  
+              }
+            </script>
+            <span class="fade-out main-btn-circle">x</span>
+          </div>
+</div>      <div class="ftup d-flex al-center">
+        <div class="ftlogo"><img src="img/logo-head.png" alt=""></div>
+        <div class="ftup2 popup-btn" data-popup="popup-reg"><button>GET A QUOTE</button></div>
+      </div>
+      <div class="ftmid d-flex pd-60">
+        <div class="ftmenu">
+          <p>Quick Links</p>
+          <ul>            
+            <li><a href="portfolio-2.html">Portfolio</a></li>            
+            <li><a href="mailto:sales@invergodesign.com">Contact Us</a></li>
+            <li><a href="tel:13322494910">Call Now!</a></li>
+          </ul>
+        </div>
+        <div class="ftmenu">
+          <p>Helpful Links</p>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="ftmenu">
+          <p>Our Socials</p>
+          <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=61566579066265">Facebook</a></li>
+            <li><a href="https://www.instagram.com/invergodesign/?fbclid=IwZXh0bgNhZW0CMTEAAR2q2F9C060sMC0416PIjAmYvAqy4JC0QsmCGEUgGd6GGongizuEpnGFVPg_aem_aO7nRT71Z_QNsfgOzlZ0ng">Insta</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="ftend d-flex al-center">
+<div class="ftcopyr">
+            <p>Copyright © 2025 <span>InverGo Design</span>. All Rights Reserved.</p> <br>
+            <p>Powered by <span><a href="https://invergointernational.com/">invergointernational.com </a></span></p>
+          </div>      </div>
+    </footer>	</main>
+	<script src="js/main.js"></script>
+	<script>
+	$(document).ready(function() {
+		var numItems = $('li.fancyTab').length;
+		if(numItems == 12) {
+			$("li.fancyTab").width('8.3%');
+		}
+		if(numItems == 11) {
+			$("li.fancyTab").width('9%');
+		}
+		if(numItems == 10) {
+			$("li.fancyTab").width('10%');
+		}
+		if(numItems == 9) {
+			$("li.fancyTab").width('11.1%');
+		}
+		if(numItems == 8) {
+			$("li.fancyTab").width('12.5%');
+		}
+		if(numItems == 7) {
+			$("li.fancyTab").width('14.2%');
+		}
+		if(numItems == 6) {
+			$("li.fancyTab").width('16.666666666666667%');
+		}
+		if(numItems == 5) {
+			$("li.fancyTab").width('20%');
+		}
+		if(numItems == 4) {
+			$("li.fancyTab").width('25%');
+		}
+		if(numItems == 3) {
+			$("li.fancyTab").width('33.3%');
+		}
+		if(numItems == 2) {
+			$("li.fancyTab").width('50%');
+		}
+	});
+	$(window).load(function() {
+	    
+		$('.fancyTabs').each(function() {
+			var highestBox = 0;
+			$('.fancyTab a', this).each(function() {
+				if($(this).height() > highestBox) highestBox = $(this).height();
+			});
+			$('.fancyTab a', this).height(highestBox);
+		});
+	});
+	</script>
+	<script>
+	// menu
+	$('#toggle').click(function() {
+		$(this).toggleClass('active');
+		$('#overlay').toggleClass('open');
+	});
+	jQuery(function($) {
+		var html = $('html');
+		var viewport = $(window);
+		var viewportHeight = viewport.height();
+		var scrollMenu = $('#section-menu');
+		var timeout = null;
+
+		function menuFreeze() {
+			if(timeout !== null) {
+				scrollMenu.removeClass('freeze');
+				clearTimeout(timeout);
+			}
+			timeout = setTimeout(function() {
+				scrollMenu.addClass('freeze');
+			}, 2000);
+		}
+		scrollMenu.mouseover(menuFreeze);
+		/* ==========================================================================
+		   Build the Scroll Menu based on Sections .scroll-item
+		   ========================================================================== */
+		var sectionsHeight = {},
+			viewportheight, i = 0;
+		var scrollItem = $('.scroll-item');
+		var bannerHeight;
+
+		function sectionListen() {
+			viewportHeight = viewport.height();
+			bannerHeight = (viewportHeight);
+			$('.section').addClass('resize');
+			scrollItem.each(function() {
+				sectionsHeight[this.title] = $(this).offset().top;
+			});
+		}
+		sectionListen();
+		viewport.resize(sectionListen);
+		viewport.bind('orientationchange', function() {
+			sectionListen();
+		});
+		var count = 0;
+		scrollItem.each(function() {
+			var anchor = $(this).attr('id');
+			var title = $(this).attr('title');
+			count++;
+			$('#section-menu ul').append('<li><a id="nav_' + title + '" href="#' + anchor + '"><span>' + count + '</span> ' + title + '</a></li>');
+		});
+
+		function menuListen() {
+			var pos = $(this).scrollTop();
+			pos = pos + viewportHeight * 0.625;
+			for(i in sectionsHeight) {
+				if(sectionsHeight[i] < pos) {
+					$('#section-menu a').removeClass('active');
+					$('#section-menu a#nav_' + i).addClass('active');;
+					var newHash = '#' + $('.scroll-item[title="' + i + '"]').attr('id');
+					if(history.pushState) {
+						history.pushState(null, null, newHash);
+					} else {
+						location.hash = newHash;
+					}
+				} else {
+					$('#section-menu a#nav_' + i).removeClass('active');
+					if(pos < viewportHeight - 72) {
+						history.pushState(null, null, ' ');
+					}
+				}
+			}
+		}
+		scrollMenu.css('margin-top', scrollMenu.height() / 2 * -1);
+		/* ==========================================================================
+		   Smooth Scroll for Anchor Links and URL refresh
+		   ========================================================================== */
+		scrollMenu.find('a').click(function() {
+			var href = $.attr(this, 'href');
+			$('html').animate({
+				scrollTop: $(href).offset().top
+			}, 500, function() {
+				window.location.hash = href;
+			});
+			return false;
+		});
+		/* ==========================================================================
+		   Fire functions on Scroll Event
+		   ========================================================================== */
+		function scrollHandler() {
+			menuListen();
+			menuFreeze();
+		}
+		scrollHandler();
+		viewport.on('scroll', function() {
+			scrollHandler();
+			//			window.requestAnimationFrame(scrollHandler);
+		});
+	});
+	$(document).ready(function() {
+		$('.popup-btn').click(function() {
+			var popupBlock = $('#' + $(this).data('popup'));
+			popupBlock.addClass('active').find('.-out').click(function() {
+				popupBlock.css('opacity', '0').find('.popup-content').css('margin-top', '350px');
+				setTimeout(function() {
+					$('.popup').removeClass('active');
+					popupBlock.css('opacity', '').find('.popup-content').css('margin-top', '');
+				}, 600);
+			});
+		});
+	});
+	</script>
+</body>
+
+
+<!-- Mirrored from invergodesign.com/packages by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jul 2025 16:29:10 GMT -->
+</html>

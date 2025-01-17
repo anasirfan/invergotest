@@ -1,0 +1,94 @@
+/* Theme Colors CSS */
+
+/* Main Background */
+body {
+    background: linear-gradient(to right, #0f1c46 0%, #19104F 50%, #223f9b 100%);
+}
+
+/* Section Colors */
+.section-projects {
+    background-color: #0f1c46;
+}
+
+.section-services {
+    background-color: #152865;
+}
+
+.section-testimonials {
+    background-color: #223f9b;
+}
+
+.section-management {
+    background-color: #2a4dbd;
+}
+
+.section-portfolio {
+    background-color: #004581;
+}
+
+.section-contact {
+    background-color: #018abd;
+}
+
+/* UI Elements */
+.card {
+    background: rgba(15, 28, 70, 0.9);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background: #152865;
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background: #223f9b;
+    border-color: #2a4dbd;
+}
+
+.btn-primary:hover {
+    background: #2a4dbd;
+    border-color: #223f9b;
+}
+
+/* Text and Accents */
+.section-title {
+    color: #97cbdc;
+}
+
+.header__menu li.active a {
+    color: #97cbdc;
+}
+
+.header__menu li a:hover {
+    color: #018abd;
+}
+
+/* Form Elements */
+input:focus, 
+textarea:focus {
+    border-color: #018abd;
+    box-shadow: 0 0 5px rgba(1, 138, 189, 0.5);
+}
+
+/* Custom Elements */
+.testimonial-card {
+    background: rgba(0, 69, 129, 0.9);
+}
+
+.feature-box {
+    background: rgba(27, 51, 88, 0.9);
+}
+
+/* Gradients */
+.gradient-1 {
+    background: linear-gradient(135deg, #0f1c46, #152865);
+}
+
+.gradient-2 {
+    background: linear-gradient(135deg, #223f9b, #2a4dbd);
+}
+
+.gradient-3 {
+    background: linear-gradient(135deg, #004581, #018abd);
+}
