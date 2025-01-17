@@ -103,7 +103,7 @@ $(function() {
 
 /* 2.4 Home scroll animation */
 $(window).on('load',function (){
-    $('#preloader').fadeOut(1500);
+    $('#preloader').fadeOut(1000);
     if ($('.home-page').length > 0) {
         if ($(window).width() > 768 && window.orientation !== 0) {
             gsap.registerPlugin(ScrollTrigger);
@@ -196,7 +196,7 @@ $(window).on('load',function (){
             //home+projects start
             sectionNumber++;
 
-            gsap.set('.home .sticky-title li', {'opacity': 0});
+            gsap.set('.sticky-title li', {'opacity': 0});
 
             let tlProjectBtn = new TimelineMax({paused: true});
             tlProjectBtn.from(".projects .content__btn-block > *", 0.3, {scale: 0, ease: Back.easeOut});
@@ -1057,4 +1057,4 @@ $('#toggle').click(function() {
     $('#overlay').toggleClass('open');
    });
 //   fts
-baguetteBox.run('.tz-gallery');
+// baguetteBox.run('.tz-gallery');
