@@ -192,15 +192,47 @@
   letter-spacing: 0.05em;
 }
 
-/* ─── Responsive ─── */
+/* ─── Responsive – Mobile ─── */
 @media (max-width: 768px) {
+  .section {
+    padding: clamp(3rem, 6vh, 5rem) 0;
+  }
+
   .container {
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding: 0 5vw;
+    text-align: center;
+  }
+
+  .left {
+    opacity: 1;
+    transform: none;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .right {
     grid-template-columns: 1fr 1fr;
+    opacity: 1;
+    transform: none;
+  }
+
+  .priceCard {
+    padding: 1.2rem;
+    border-radius: 12px;
+  }
+
+  .priceValue {
+    font-size: 1.3rem;
   }
 }
 

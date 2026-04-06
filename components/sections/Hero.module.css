@@ -401,17 +401,44 @@
 
 /* CTA removed per design */
 
-/* ─── Responsive ─── */
+/* ─── Responsive – Tablet ─── */
 @media screen and (max-width: 1024px) {
-  .floatImgs {
-    display: none;
+  .contentLeft {
+    width: 50%;
+    padding: 2vw 3vw 2vw 4vw;
   }
+
+  .contentRight {
+    flex: 1;
+  }
+
+  .description {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .ph {
+    width: 70vh;
+    right: -2vw;
+  }
+
+  .ph img {
+    width: 70vh;
+  }
+
+  .inph1 { width: 24vh; right: 8vw; bottom: 45vh; }
+  .inph1 img { width: 24vh; }
+  .inph2 { width: 18vh; right: 22vw; bottom: 52vh; }
+  .inph2 img { width: 20vh; }
+  .inph3 { width: 24vh; right: 4vw; bottom: 16vh; }
+  .inph3 img { width: 24vh; }
 }
 
-@media screen and (max-width: 768px) and (orientation: portrait) {
+/* ─── Responsive – Mobile ─── */
+@media screen and (max-width: 768px) {
   .hero {
     height: auto;
-    min-height: 100vh;
+    min-height: 100svh;
   }
 
   .inner {
@@ -421,21 +448,93 @@
 
   .contentLeft {
     width: 100%;
-    padding: 5.33333vw;
-    padding-top: calc(var(--header-h, 72px) + 2rem);
+    padding: 6vw;
+    padding-top: calc(var(--header-h, 60px) + 1.5rem);
+    padding-bottom: 1.5rem;
+  }
+
+  .rotatingText {
+    font-size: 9vw;
+    line-height: 1.25;
+  }
+
+  .description {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+
+  .socialWrapper {
+    margin-top: 1.5rem;
+  }
+
+  .socialIcon {
+    width: 42px;
+    height: 42px;
+    padding: 12px;
+  }
+
+  .platformsLabel {
+    font-size: 13px;
+    margin-top: 1rem;
+  }
+
+  .slider {
+    height: 55pt;
+  }
+
+  .slide {
+    height: 55pt;
+  }
+
+  .slide img {
+    width: 120px;
+    padding: 0.5rem;
   }
 
   .contentRight {
     width: 100%;
-    display: none;
+    height: 50vh;
+    min-height: 300px;
+    flex: none;
+    display: flex;
+    position: relative;
+    overflow: hidden;
   }
 
+  .floatImgs {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ph {
+    width: 80vw;
+    bottom: -8vh;
+    right: -10vw;
+  }
+
+  .ph img {
+    width: 80vw;
+  }
+
+  .inph1 { width: 30vw; bottom: 32vh; right: 15vw; }
+  .inph1 img { width: 30vw; }
+  .inph2 { width: 22vw; bottom: 36vh; right: 55vw; }
+  .inph2 img { width: 24vw; }
+  .inph3 { width: 28vw; bottom: 10vh; right: 5vw; }
+  .inph3 img { width: 28vw; }
+}
+
+@media screen and (max-width: 400px) {
   .rotatingText {
-    font-size: 7vw;
-    line-height: 1.3;
+    font-size: 10vw;
   }
 
-  .socialWrapper {
-    margin-top: 40px;
+  .contentRight {
+    height: 42vh;
+    min-height: 250px;
   }
 }

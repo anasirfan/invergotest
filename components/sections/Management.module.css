@@ -141,13 +141,39 @@
   left: 130%;
 }
 
-/* ─── Responsive ─── */
-@media (max-width: 700px) {
+/* ─── Responsive – Mobile ─── */
+@media (max-width: 768px) {
+  .section {
+    padding: clamp(3rem, 6vh, 5rem) 0;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
   .panels {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 5vw;
   }
 
   .panel {
     aspect-ratio: 16 / 10;
+    border-radius: 14px;
+  }
+
+  .panelContent {
+    padding: 1.2rem;
+  }
+
+  .panelTitle {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .panelCta {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 0.75rem;
   }
 }

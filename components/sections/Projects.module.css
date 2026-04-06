@@ -146,6 +146,22 @@
   transform: translateX(-50%) translateY(0);
 }
 
+/* ─── Tablet ─── */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: clamp(180px, 20vw, 260px);
+    padding: var(--sp-6) var(--sp-4);
+  }
+
+  .sidebarTitle {
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+  }
+
+  .card {
+    width: clamp(240px, 28vw, 360px);
+  }
+}
+
 /* ─── Mobile: fall back to scroll snap ─── */
 @media (max-width: 768px) {
   .section {
@@ -162,7 +178,17 @@
     width: 100%;
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    padding: var(--sp-12) var(--sp-6) var(--sp-6);
+    padding: 3rem 5vw 1.5rem;
+    text-align: center;
+  }
+
+  .sidebarLabel {
+    align-self: center;
+  }
+
+  .sidebarTitle {
+    font-size: 2rem;
+    margin-bottom: 0;
   }
 
   .projectNames {
@@ -174,7 +200,7 @@
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    padding: var(--sp-8) 0;
+    padding: 1.5rem 5vw;
   }
 
   .viewport::-webkit-scrollbar {
@@ -183,10 +209,20 @@
 
   .track {
     transform: none !important;
+    gap: 12px;
+    padding: 0;
   }
 
   .card {
-    scroll-snap-align: start;
-    width: 75vw;
+    scroll-snap-align: center;
+    width: 72vw;
+    aspect-ratio: 3 / 4;
+  }
+
+  .cardBtn {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    font-size: 0.65rem;
+    padding: 0.4rem 0.8rem;
   }
 }

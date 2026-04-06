@@ -303,7 +303,7 @@
   }
 
   .featuredCard {
-    min-height: 350px;
+    min-height: 300px;
   }
 
   .bento {
@@ -316,12 +316,25 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .section {
+    padding: clamp(3rem, 6vh, 5rem) 0;
+  }
+
   .bento {
     grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .featuredCard {
+    min-height: 250px;
   }
 
   .bentoCard {
-    min-height: 160px;
+    min-height: 140px;
+  }
+
+  .bentoTitle {
+    font-size: 0.95rem;
   }
 }

@@ -170,6 +170,19 @@
   background: #fff;
   border-radius: 2px;
   transition: all 0.3s;
+  transform-origin: center;
+}
+
+.burgerOpen .burgerTop {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.burgerOpen .burgerMid {
+  opacity: 0;
+}
+
+.burgerOpen .burgerBot {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 /* ─── Mobile overlay ─── */
@@ -217,42 +230,30 @@
   color: #6A49B6;
 }
 
-/* ─── Responsive ─── */
-@media screen and (max-width: 768px) and (orientation: portrait) {
-  .header {
-    height: 18.66667vw;
-    background: #241f1f;
-    z-index: 100;
-  }
-
-  .headerLeft {
-    width: 60%;
-    border-right: 0;
-    padding-left: 0;
-  }
-
-  .logo img {
-    height: 5vw;
-  }
-
-  .headerRight {
-    width: 40%;
-    padding-right: 5.33333vw;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .headerBtn {
-    display: none;
-  }
-
-  .burger {
-    display: flex;
-  }
+.mobileCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding: 0.85rem 2.5rem;
+  background: linear-gradient(135deg, #8B5CF6, #6D28D9);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.3s;
+  width: 100%;
+  text-align: center;
 }
 
+.mobileCta:hover {
+  background: linear-gradient(135deg, #7C4FE0, #5B21B6);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.3);
+}
+
+/* ─── Responsive – Medium screens ─── */
 @media screen and (max-width: 1200px) and (min-width: 769px) {
   .navLink {
     font-size: 10px;
@@ -263,8 +264,53 @@
   }
 
   .pulse {
-    min-width: 130px;
+    min-width: 120px;
     min-height: 40px;
-    font-size: 12px;
+    font-size: 11px;
+  }
+}
+
+/* ─── Responsive – Mobile ─── */
+@media screen and (max-width: 768px) {
+  .header {
+    height: 60px;
+    background: rgba(10, 10, 15, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    z-index: 1000;
+  }
+
+  .inner {
+    padding: 0 4vw;
+  }
+
+  .burger {
+    display: flex;
+    order: -1;
+    margin-left: 0;
+    margin-right: 3vw;
+  }
+
+  .headerLeft {
+    width: auto;
+    flex: 1;
+    padding-left: 0;
+  }
+
+  .logo img {
+    height: 22px;
+  }
+
+  .headerRight {
+    width: auto;
+    padding-right: 0;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .headerBtn {
+    display: none;
   }
 }

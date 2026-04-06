@@ -26,7 +26,7 @@ export default function Header({ onQuoteClick }) {
         <div className={styles.inner}>
           {/* Hamburger (mobile) */}
           <button
-            className={styles.burger}
+            className={`${styles.burger} ${mobileOpen ? styles.burgerOpen : ''}`}
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
@@ -88,8 +88,8 @@ export default function Header({ onQuoteClick }) {
           ))}
           <a
             href={`mailto:${siteInfo.email}`}
-            className="btn btn--primary btn--lg"
-            style={{ marginTop: 'var(--sp-6)', width: '100%', textAlign: 'center' }}
+            className={styles.mobileCta}
+            onClick={() => setMobileOpen(false)}
           >
             Let&apos;s Discuss
           </a>

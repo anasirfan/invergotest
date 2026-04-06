@@ -14,6 +14,8 @@ export default function Projects() {
     const track = trackRef.current;
     if (!section || !track) return;
 
+    if (window.innerWidth <= 768) return;
+
     const rect = section.getBoundingClientRect();
     const sectionHeight = section.offsetHeight;
     const windowHeight = window.innerHeight;

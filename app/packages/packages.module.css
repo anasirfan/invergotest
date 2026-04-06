@@ -453,16 +453,46 @@
   color: rgba(255, 255, 255, 0.25);
 }
 
-/* ─── Responsive ─── */
+/* ─── Responsive – Tablet ─── */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+/* ─── Responsive – Mobile ─── */
 @media (max-width: 768px) {
+  .page {
+    padding-bottom: 3rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSub {
+    font-size: 0.9rem;
+  }
+
+  .tabsWrap {
+    padding: 0 4vw;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .tabs {
-    gap: 0.3rem;
-    padding: 0.4rem;
+    gap: 0.25rem;
+    padding: 0.35rem;
+    flex-wrap: nowrap;
+    min-width: max-content;
   }
 
   .tab {
-    padding: 0.5rem 0.8rem;
-    font-size: 0.75rem;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .tabIcon {
@@ -471,9 +501,35 @@
 
   .grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 4vw;
   }
 
   .catBanner {
-    height: 100px;
+    height: 80px;
+    border-radius: 12px;
+  }
+
+  .card {
+    border-radius: 14px;
+  }
+
+  .cardHead {
+    padding: 1.2rem 1rem 0.8rem;
+  }
+
+  .cardBody {
+    padding: 0.8rem 1rem 1.2rem;
+  }
+
+  .cardBtn {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .heroTitle {
+    font-size: 1.6rem;
   }
 }
