@@ -1,0 +1,192 @@
+/* Section is tall to create scrollRange for horizontal movement */
+.section {
+  position: relative;
+  height: 350vh;
+  background: #1b1b1b;
+}
+
+/* Sticky container fills viewport and stays pinned */
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+/* ─── Sidebar (like original .sticky-title + project names) ─── */
+.sidebar {
+  flex-shrink: 0;
+  width: clamp(200px, 22vw, 340px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--sp-8) var(--sp-6);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.sidebarLabel {
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #02F6C0;
+  background: rgba(2, 246, 192, 0.08);
+  padding: var(--sp-1) var(--sp-3);
+  border-radius: var(--radius-full);
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: var(--sp-4);
+  font-weight: 600;
+}
+
+.sidebarTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.5vw, 4rem);
+  font-weight: 800;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: var(--sp-8);
+}
+
+.projectNames {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.projectNames li {
+  font-size: clamp(0.7rem, 1.1vw, 0.95rem);
+  color: rgba(255, 255, 255, 0.3);
+  padding: var(--sp-2) var(--sp-3);
+  border-left: 2px solid transparent;
+  transition: all 0.3s;
+  cursor: default;
+  line-height: 1.4;
+}
+
+.nameActive {
+  color: #fff !important;
+  border-left-color: #02F6C0 !important;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* ─── Horizontal viewport ─── */
+.viewport {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.track {
+  display: flex;
+  gap: 20px;
+  padding: 0 var(--sp-8);
+  will-change: transform;
+}
+
+.card {
+  flex-shrink: 0;
+  width: clamp(280px, 30vw, 420px);
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.5), 0 0 30px rgba(139, 92, 246, 0.08);
+}
+
+.link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover .link img {
+  transform: scale(1.05);
+}
+
+.cardBtn {
+  position: absolute;
+  bottom: var(--sp-4);
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(8px);
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.card:hover .cardBtn {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ─── Mobile: fall back to scroll snap ─── */
+@media (max-width: 768px) {
+  .section {
+    height: auto;
+  }
+
+  .sticky {
+    position: relative;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    padding: var(--sp-12) var(--sp-6) var(--sp-6);
+  }
+
+  .projectNames {
+    display: none;
+  }
+
+  .viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: var(--sp-8) 0;
+  }
+
+  .viewport::-webkit-scrollbar {
+    display: none;
+  }
+
+  .track {
+    transform: none !important;
+  }
+
+  .card {
+    scroll-snap-align: start;
+    width: 75vw;
+  }
+}

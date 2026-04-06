@@ -1,0 +1,270 @@
+/* ============================================================
+   Header – matches original .header layout exactly
+   height: 4.63542vw, full-width, vw-based spacing
+   ============================================================ */
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 0;
+  height: 4.63542vw;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s, backdrop-filter 0.3s;
+}
+
+.scrolled {
+  background: rgba(5, 5, 16, 0.88);
+  backdrop-filter: blur(20px) saturate(1.5);
+  -webkit-backdrop-filter: blur(20px) saturate(1.5);
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* ─── Left area: logo (like original .header__left = 36.927vw) ─── */
+.headerLeft {
+  width: 36.927vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  padding-left: 1.5vw;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: clamp(24px, 2.8vw, 50px);
+  width: auto;
+}
+
+/* ─── Right area: nav + button (like original .header__right) ─── */
+.headerRight {
+  width: calc(100% - 36.927vw);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.66667vw;
+}
+
+/* ─── Nav links (like original .header__menu) ─── */
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  display: block;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.navLink {
+  font-size: 12px;
+  line-height: 140%;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  color: #6A49B6;
+}
+
+.navLinkActive {
+  color: #6A49B6 !important;
+}
+
+/* ─── Let's Discuss button (like original .pulse) ─── */
+.headerBtn {
+  flex-shrink: 0;
+}
+
+.discussLink {
+  text-decoration: none;
+}
+
+.pulse {
+  --height: 50px;
+  border: 0;
+  position: relative;
+  min-width: 150px;
+  min-height: var(--height);
+  border-radius: var(--height);
+  color: #fff;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse 2s infinite;
+}
+
+.discussText {
+  position: relative;
+  z-index: 2;
+}
+
+.iconContainer {
+  position: relative;
+  z-index: 2;
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 500ms ease;
+}
+
+.pulse:hover .iconContainer {
+  transform: translateX(4px);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 #02F6C0; }
+  70% { box-shadow: 0 0 0 10px rgba(204, 169, 44, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(204, 169, 44, 0); }
+}
+
+/* ─── Hamburger (hidden on desktop, shown on mobile) ─── */
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  margin-left: 1.5vw;
+  margin-right: 1vw;
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 1001;
+}
+
+.burgerTop,
+.burgerMid,
+.burgerBot {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+/* ─── Mobile overlay ─── */
+.mobileOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(10, 10, 15, 0.96);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+.mobileOpen {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s;
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-6, 1.5rem);
+  padding: 2rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.mobileLink {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.mobileLink:hover {
+  color: #6A49B6;
+}
+
+/* ─── Responsive ─── */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .header {
+    height: 18.66667vw;
+    background: #241f1f;
+    z-index: 100;
+  }
+
+  .headerLeft {
+    width: 60%;
+    border-right: 0;
+    padding-left: 0;
+  }
+
+  .logo img {
+    height: 5vw;
+  }
+
+  .headerRight {
+    width: 40%;
+    padding-right: 5.33333vw;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .headerBtn {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+  .navLink {
+    font-size: 10px;
+  }
+
+  .nav li {
+    padding: 3px;
+  }
+
+  .pulse {
+    min-width: 130px;
+    min-height: 40px;
+    font-size: 12px;
+  }
+}

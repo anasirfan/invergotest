@@ -1,0 +1,309 @@
+/* ============================================================
+   Testimonials – split layout with large quote + thumb nav
+   ============================================================ */
+.section {
+  padding: clamp(5rem, 10vh, 9rem) 0;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0A0A0F 0%, #100a20 50%, #0A0A0F 100%);
+}
+
+.bgGlow {
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(106, 73, 182, 0.06) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* ─── Container ─── */
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: clamp(2rem, 5vw, 5rem);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--sp-6);
+  position: relative;
+  z-index: 1;
+  align-items: start;
+}
+
+/* ─── Left side: title + thumbs ─── */
+.left {
+  position: sticky;
+  top: 120px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #F59E0B;
+  background: rgba(245, 158, 11, 0.08);
+  padding: 0.35rem 1rem;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.title {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 2rem;
+  max-height: 340px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.08) transparent;
+  padding-right: 4px;
+}
+
+.thumbs::-webkit-scrollbar {
+  width: 3px;
+}
+
+.thumbs::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.4);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  width: 100%;
+}
+
+.thumb:hover {
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.thumbActive {
+  background: rgba(139, 92, 246, 0.08) !important;
+  border-color: rgba(139, 92, 246, 0.2) !important;
+  color: #fff !important;
+}
+
+.thumbLetter {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  transition: all 0.35s;
+}
+
+.thumbActive .thumbLetter {
+  background: linear-gradient(135deg, #8B5CF6, #02F6C0);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.2);
+}
+
+.thumbName {
+  font-size: 0.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ─── Right side: quote card ─── */
+.right {
+  position: relative;
+}
+
+.quoteDecor {
+  position: absolute;
+  top: -40px;
+  left: -10px;
+  font-size: 12rem;
+  line-height: 1;
+  font-weight: 800;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.06), transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: clamp(2rem, 4vw, 3rem);
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: cardFade 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #F59E0B, #8B5CF6, transparent);
+}
+
+@keyframes cardFade {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.stars {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 1.5rem;
+}
+
+.stars svg {
+  filter: drop-shadow(0 0 4px rgba(245, 158, 11, 0.25));
+}
+
+.quote {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.8;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8B5CF6, #02F6C0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.25);
+  flex-shrink: 0;
+}
+
+.authorName {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.authorSite {
+  display: block;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 2px;
+}
+
+/* ─── Controls ─── */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.arrow {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.arrow:hover {
+  color: #fff;
+  border-color: #8B5CF6;
+  background: rgba(139, 92, 246, 0.1);
+  transform: scale(1.08);
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.12);
+}
+
+.counter {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .left {
+    position: static;
+  }
+
+  .thumbs {
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: visible;
+    max-height: none;
+    gap: 0.4rem;
+    scrollbar-width: none;
+    padding-right: 0;
+    padding-bottom: 4px;
+  }
+
+  .thumbs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .thumb {
+    min-width: 140px;
+    flex-shrink: 0;
+  }
+
+  .quoteDecor {
+    font-size: 8rem;
+    top: -30px;
+  }
+}

@@ -1,0 +1,68 @@
+.legal {
+  padding: var(--sp-24) 0 var(--sp-16);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--sp-16);
+}
+
+.section {
+  margin-bottom: var(--sp-10);
+}
+
+.section h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  margin-bottom: var(--sp-4);
+  color: var(--color-text);
+}
+
+.section h3 {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  margin: var(--sp-4) 0 var(--sp-3);
+  color: var(--color-text);
+}
+
+.section p {
+  font-size: var(--fs-base);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-relaxed);
+  margin-bottom: var(--sp-4);
+}
+
+.section a {
+  color: var(--color-primary);
+  transition: color var(--duration-fast);
+}
+
+.section a:hover {
+  color: var(--color-text);
+}
+
+.section ul {
+  margin: var(--sp-4) 0;
+  padding-left: var(--sp-6);
+}
+
+.section ul li {
+  position: relative;
+  padding-left: var(--sp-5);
+  margin-bottom: var(--sp-3);
+  font-size: var(--fs-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--lh-relaxed);
+}
+
+.section ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
