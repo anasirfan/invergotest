@@ -1,8 +1,16 @@
 import { servicePages } from '@/lib/content';
 import ServicePage from '@/components/sections/ServicePage';
 
-export const metadata = { title: 'Lead Generation — InverGo Design' };
+const data = servicePages['lead-generation'];
+
+export const metadata = {
+  title: 'Lead Generation — Qualified Leads & Sales Funnels',
+  description: data.description,
+  keywords: ['lead generation', 'PPC', 'Google Ads', 'landing pages', 'email marketing', 'CRM', 'sales funnel'],
+  alternates: { canonical: '/lead-generation' },
+  openGraph: { title: 'Lead Generation Services', description: data.description, url: '/lead-generation' },
+};
 
 export default function LeadGenPage() {
-  return <ServicePage data={servicePages['lead-generation']} />;
+  return <ServicePage data={data} />;
 }
