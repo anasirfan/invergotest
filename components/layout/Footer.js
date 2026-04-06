@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className={styles.grid}>
           <div className={styles.brand}>
-            <img src="/img/weblogo.png" alt={siteInfo.name} width={160} height={42} />
+            <img src="/img/logo-head.png" alt={siteInfo.name} width={160} height={42} />
             <p className="text-secondary" style={{ marginTop: 'var(--sp-4)' }}>
               {siteInfo.tagline}
             </p>
