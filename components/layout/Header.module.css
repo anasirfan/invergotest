@@ -282,28 +282,32 @@
 
   .inner {
     padding: 0 4vw;
+    position: relative;
+    justify-content: center;
   }
 
   .burger {
     display: flex;
-    order: -1;
-    margin-left: 0;
-    margin-right: 3vw;
+    position: absolute;
+    left: 4vw;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
   }
 
   .headerLeft {
     width: auto;
-    flex: 1;
+    flex: none;
     padding-left: 0;
+    justify-content: center;
   }
 
   .logo img {
-    height: 22px;
+    height: 32px;
   }
 
   .headerRight {
-    width: auto;
-    padding-right: 0;
+    display: none;
   }
 
   .nav {

@@ -206,40 +206,39 @@
   }
 
   .container {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 0 5vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 0 4vw;
   }
 
   .card {
-    max-width: 100%;
-    width: 100%;
+    max-width: calc(50% - 0.4rem);
+    width: calc(50% - 0.4rem);
+    flex: none;
   }
 
   .cardInner {
-    padding: 1.5rem 1.2rem;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    text-align: left;
+    padding: 1.2rem 0.8rem;
+    border-radius: 14px;
+    text-align: center;
   }
 
   .ringWrap {
-    width: 80px;
-    height: 80px;
-    margin: 0;
-    flex-shrink: 0;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 0.6rem;
   }
 
   .value {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .label {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     margin-bottom: 0.5rem;
+    letter-spacing: 0.1em;
   }
 
   .bar {

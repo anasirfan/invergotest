@@ -450,7 +450,7 @@
     width: 100%;
     padding: 6vw;
     padding-top: calc(var(--header-h, 60px) + 1.5rem);
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
 
   .rotatingText {
@@ -460,81 +460,105 @@
 
   .description {
     max-width: 100%;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
   }
 
   .socialWrapper {
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
   }
 
   .socialIcon {
-    width: 42px;
-    height: 42px;
-    padding: 12px;
+    width: 40px;
+    height: 40px;
+    padding: 11px;
   }
 
   .platformsLabel {
-    font-size: 13px;
-    margin-top: 1rem;
+    font-size: 12px;
+    margin-top: 0.8rem;
   }
 
   .slider {
-    height: 55pt;
+    height: 50pt;
   }
 
   .slide {
-    height: 55pt;
+    height: 50pt;
   }
 
   .slide img {
-    width: 120px;
-    padding: 0.5rem;
+    width: 100px;
+    padding: 0.4rem;
   }
 
   .contentRight {
     width: 100%;
-    height: 50vh;
-    min-height: 300px;
     flex: none;
+    height: 75vw;
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     overflow: hidden;
+    padding-bottom: 2vw;
   }
 
   .floatImgs {
     display: block;
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 80vw;
+    height: 68vw;
+    margin: 0 auto;
   }
 
   .ph {
-    width: 80vw;
-    bottom: -8vh;
-    right: -10vw;
+    position: absolute;
+    width: 62vw;
+    bottom: auto;
+    right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
   }
 
   .ph img {
-    width: 80vw;
+    width: 62vw;
+    filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.4));
   }
 
-  .inph1 { width: 30vw; bottom: 32vh; right: 15vw; }
-  .inph1 img { width: 30vw; }
-  .inph2 { width: 22vw; bottom: 36vh; right: 55vw; }
-  .inph2 img { width: 24vw; }
-  .inph3 { width: 28vw; bottom: 10vh; right: 5vw; }
-  .inph3 img { width: 28vw; }
+  .inph1 {
+    width: 20vw;
+    bottom: auto;
+    right: auto;
+    top: 2vw;
+    left: 56vw;
+    z-index: 999;
+  }
+  .inph1 img { width: 20vw; }
+
+  .inph2 {
+    width: 16vw;
+    bottom: auto;
+    right: auto;
+    top: 0;
+    left: 2vw;
+  }
+  .inph2 img { width: 16vw; }
+
+  .inph3 {
+    width: 20vw;
+    bottom: auto;
+    right: auto;
+    top: 46vw;
+    left: 54vw;
+  }
+  .inph3 img { width: 20vw; }
 }
 
 @media screen and (max-width: 400px) {
   .rotatingText {
     font-size: 10vw;
-  }
-
-  .contentRight {
-    height: 42vh;
-    min-height: 250px;
   }
 }
