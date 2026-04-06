@@ -16,6 +16,7 @@ const serviceImages = [
   '/images/s9.jpg',
   '/images/leftServ.jpg',
   '/images/rightServ.jpg',
+  '/images/s4.jpg',
 ];
 
 export default function Services() {

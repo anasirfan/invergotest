@@ -20,6 +20,7 @@ export default function sitemap() {
     'social-media',
     'lead-generation',
     'ebooks',
+    'ai-automation',
   ].map((slug) => ({
     url: `${BASE_URL}/${slug}`,
     lastModified: new Date(),

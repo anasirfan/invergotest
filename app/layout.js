@@ -92,9 +92,11 @@ export default function RootLayout({ children }) {
         ],
         address: {
           '@type': 'PostalAddress',
-          streetAddress: 'Office # 503, Fifth floor, Fortune Center, Main Shahrah-e-Faisal',
-          addressLocality: 'Karachi',
-          addressCountry: 'PK',
+          streetAddress: '13000 Murphy Rd',
+          addressLocality: 'Stafford',
+          addressRegion: 'TX',
+          postalCode: '77477',
+          addressCountry: 'US',
         },
         sameAs: [
           'https://www.facebook.com/profile.php?id=61566579066265',
@@ -134,6 +136,7 @@ export default function RootLayout({ children }) {
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Social Media Marketing' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lead Generation' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'E-books' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Automation / AI Integration' } },
           ],
         },
       },

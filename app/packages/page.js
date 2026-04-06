@@ -14,6 +14,7 @@ const categoryMeta = {
   'social-media': { icon: '◆', accent: '#6366F1', image: '/images/s9.jpg' },
   'lead-generation': { icon: '◎', accent: '#F97316', image: '/images/leftServ.jpg' },
   ebooks: { icon: '◇', accent: '#A855F7', image: '/images/rightServ.jpg' },
+  'ai-automation': { icon: '⚡', accent: '#10B981', image: '/images/s4.jpg' },
 };
 
 export default function PackagesPage() {
@@ -72,12 +73,12 @@ export default function PackagesPage() {
           <div className={styles.heroGrid} aria-hidden="true" />
         </div>
         <div className={styles.heroContent}>
-          <span className={styles.heroBadge}>Transparent Pricing</span>
+          <span className={styles.heroBadge}>Tailored Solutions</span>
           <h1 className={styles.heroTitle}>
             Our <span className={styles.heroGradient}>Packages</span>
           </h1>
           <p className={styles.heroSub}>
-            No hidden fees. One-time pricing for every business size.<br />
+            Custom solutions for every business size.<br />
             All packages include our satisfaction guarantee.
           </p>
         </div>
@@ -137,9 +138,6 @@ export default function PackagesPage() {
 
                   <div className={styles.cardHeader}>
                     <h3 className={styles.cardName}>{pkg.name}</h3>
-                    <div className={styles.cardPrice} style={{ '--accent': meta.accent }}>
-                      {pkg.price}
-                    </div>
                   </div>
 
                   <div className={styles.divider} style={{ '--accent': meta.accent }} />
@@ -155,16 +153,16 @@ export default function PackagesPage() {
                     ))}
                   </ul>
 
-                  <button
+                  <a
+                    href="mailto:sales@invergodesign.com?subject=Quote Request: ${encodeURIComponent(pkg.name)}"
                     className={`${styles.cardBtn} ${pkg.popular ? styles.cardBtnPrimary : ''}`}
                     style={{ '--accent': meta.accent }}
-                    onClick={() => document.querySelector('[data-quote-trigger]')?.click()}
                   >
-                    <span>Get Started</span>
+                    <span>Get a Quote</span>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
                     </svg>
-                  </button>
+                  </a>
 
                   <div className={styles.cardShine} />
                 </div>
@@ -173,7 +171,7 @@ export default function PackagesPage() {
           )}
 
           <p className={styles.disclaimer}>
-            * No monthly or hidden fees. All prices are one-time unless stated otherwise.
+            * Contact us for custom pricing tailored to your project requirements.
           </p>
         </div>
       </section>
