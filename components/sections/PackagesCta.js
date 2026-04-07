@@ -4,10 +4,10 @@ import Link from 'next/link';
 import styles from './PackagesCta.module.css';
 
 const highlights = [
-  { label: 'Graphic Design', from: '$34.99' },
-  { label: 'Web Development', from: '$229.99' },
-  { label: 'Mobile Apps', from: '$1,499.99' },
-  { label: 'SEO', from: '$1,299' },
+  { label: 'Graphic Design', icon: '✦' },
+  { label: 'Web Development', icon: '◈' },
+  { label: 'Mobile Apps', icon: '◆' },
+  { label: 'SEO', icon: '◎' },
 ];
 
 export default function PackagesCta() {
@@ -31,10 +31,10 @@ export default function PackagesCta() {
 
       <div className={styles.container}>
         <div className={`${styles.left} ${visible ? styles.leftVisible : ''}`}>
-          <span className={styles.badge}>transparent pricing</span>
+          <span className={styles.badge}>tailored solutions</span>
           <h2 className={styles.title}>Our Packages</h2>
           <p className={styles.description}>
-            No monthly or hidden fees. All packages include our satisfaction guarantee
+            Custom solutions for every business size. All packages include our satisfaction guarantee
             and dedicated account manager.
           </p>
           <Link href="/packages" className={styles.cta}>
@@ -47,17 +47,16 @@ export default function PackagesCta() {
 
         <div className={`${styles.right} ${visible ? styles.rightVisible : ''}`}>
           {highlights.map((item, i) => (
-            <div
+            <a
               key={item.label}
+              href={`mailto:sales@invergodesign.com?subject=Quote Request: ${encodeURIComponent(item.label)}`}
               className={styles.priceCard}
               style={{ '--i': i }}
             >
+              <div className={styles.priceIcon}>{item.icon}</div>
               <div className={styles.priceLabel}>{item.label}</div>
-              <div className={styles.priceValue}>
-                <span className={styles.priceFrom}>from</span>
-                {item.from}
-              </div>
-            </div>
+              <div className={styles.quoteBtn}>Get a Quote</div>
+            </a>
           ))}
         </div>
       </div>
