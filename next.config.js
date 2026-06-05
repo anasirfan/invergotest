@@ -7,6 +7,13 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Force www
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'invergodesign.com' }],
+        destination: 'https://www.invergodesign.com/:path*',
+        permanent: true,
+      },
       { source: '/index.html', destination: '/', permanent: true },
       { source: '/index-2.html', destination: '/', permanent: true },
       { source: '/:slug.html', destination: '/:slug', permanent: true },
