@@ -118,5 +118,125 @@
     "city": "Gilbert",
     "state": "AZ",
     "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-tempe",
+    "city": "Tempe",
+    "state": "AZ",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-boise",
+    "city": "Boise",
+    "state": "ID",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "social-media-marketing-plano",
+    "city": "Plano",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-henderson",
+    "city": "Henderson",
+    "state": "NV",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-chandler",
+    "city": "Chandler",
+    "state": "AZ",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-gilbert",
+    "city": "Gilbert",
+    "state": "AZ",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "service": "Social Media Marketing"
   }
 ]
