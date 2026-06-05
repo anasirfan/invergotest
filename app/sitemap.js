@@ -38,5 +38,17 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...servicePages, ...caseStudyPages];
+  // Auto-generated location pages (updated daily by GitHub Actions)
+  let locationPages = [];
+  try {
+    const generated = require('../lib/generated-pages.json');
+    locationPages = generated.map((p) => ({
+      url: `${BASE_URL}/${p.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    }));
+  } catch (e) {}
+
+  return [...staticPages, ...servicePages, ...caseStudyPages, ...locationPages];
 }

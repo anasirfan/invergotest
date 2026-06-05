@@ -1,0 +1,69 @@
+name: Daily SEO Page Generator
+
+on:
+  schedule:
+    # Runs every day at 2:00 AM UTC (7 AM Pakistan time)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      pages_per_run:
+        description: 'Number of pages to generate (default: 20)'
+        required: false
+        default: '20'
+
+jobs:
+  generate-seo-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install openai
+
+      - name: Run SEO Page Generator
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PAGES_PER_RUN: ${{ github.event.inputs.pages_per_run || '20' }}
+        run: python scripts/generate_pages.py
+
+      - name: Check for Changes
+        id: check_changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No new pages generated today."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "New pages ready to commit."
+          fi
+
+      - name: Commit and Push New Pages
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --global user.email "seo-bot@invergodesign.com"
+          git config --global user.name "InverGo SEO Bot"
+          PAGE_COUNT=$(git diff --staged --name-only | grep "page.js" | wc -l)
+          git commit -m "🤖 Auto: Add $PAGE_COUNT new SEO location pages [$(date +'%Y-%m-%d')]"
+          git push
+
+      - name: Summary
+        run: |
+          echo "## SEO Generation Complete" >> $GITHUB_STEP_SUMMARY
+          echo "- Date: $(date +'%Y-%m-%d')" >> $GITHUB_STEP_SUMMARY
+          TOTAL=$(find app -name "page.js" -path "*/seo-pages/*" 2>/dev/null | wc -l || echo "0")
+          echo "- Total location pages: $(cat lib/generated-pages.json 2>/dev/null | python3 -c 'import json,sys; print(len(json.load(sys.stdin)))' 2>/dev/null || echo '0')" >> $GITHUB_STEP_SUMMARY
