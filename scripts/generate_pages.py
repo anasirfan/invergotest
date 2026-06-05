@@ -247,8 +247,9 @@ def write_page(slug, city_info, svc, content):
     }
 
     data_json  = json.dumps(page_data, ensure_ascii=False)
-    meta_title = content["metaTitle"].replace("'", "\'")
-    meta_desc  = content["metaDescription"].replace("'", "\'")
+    # Use json.dumps for safe string escaping — handles apostrophes, quotes, etc.
+    meta_title = json.dumps(content["metaTitle"])
+    meta_desc  = json.dumps(content["metaDescription"])
 
     lines = [
         "import LocationPage from '@/components/sections/LocationPage';",
@@ -256,12 +257,12 @@ def write_page(slug, city_info, svc, content):
         "const data = " + data_json + ";",
         "",
         "export const metadata = {",
-        "  title: '" + meta_title + "',",
-        "  description: '" + meta_desc + "',",
+        "  title: " + meta_title + ",",
+        "  description: " + meta_desc + ",",
         "  alternates: { canonical: '/" + slug + "' },",
         "  openGraph: {",
-        "    title: '" + meta_title + "',",
-        "    description: '" + meta_desc + "',",
+        "    title: " + meta_title + ",",
+        "    description: " + meta_desc + ",",
         "    url: '/" + slug + "',",
         "  },",
         "};",
