@@ -31,7 +31,26 @@ export default function sitemap() {
   }));
 
   const locationPages = [
-
+    { url: `${BASE_URL}/web-design-plano`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-scottsdale`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-henderson`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-chandler`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-gilbert`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-frisco`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-mckinney`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-overland-park`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-fort-worth`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-arlington`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-irvine`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-tempe`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-boise`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-richmond`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/web-design-louisville`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/seo-services-plano`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/seo-services-scottsdale`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/seo-services-henderson`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/seo-services-chandler`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/seo-services-gilbert`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
   ];
 
   return [...staticPages, ...servicePages, ...caseStudyPages, ...locationPages];

@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "slug": "web-design-plano",
+    "city": "Plano",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-henderson",
+    "city": "Henderson",
+    "state": "NV",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-chandler",
+    "city": "Chandler",
+    "state": "AZ",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-gilbert",
+    "city": "Gilbert",
+    "state": "AZ",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-tempe",
+    "city": "Tempe",
+    "state": "AZ",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-boise",
+    "city": "Boise",
+    "state": "ID",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "service": "Web Design"
+  },
+  {
+    "slug": "seo-services-plano",
+    "city": "Plano",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-henderson",
+    "city": "Henderson",
+    "state": "NV",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-chandler",
+    "city": "Chandler",
+    "state": "AZ",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-gilbert",
+    "city": "Gilbert",
+    "state": "AZ",
+    "service": "SEO Services"
+  }
+]
