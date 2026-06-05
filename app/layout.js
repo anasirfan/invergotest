@@ -25,6 +25,9 @@ export const metadata = {
   publisher: SITE_NAME,
   formatDetection: { telephone: true, email: true, address: true },
   alternates: { canonical: '/' },
+  other: {
+    'facebook-domain-verification': 'sx0zpqx2e57vz5exsyw975cj8vf9tk',
+  },
   openGraph: {
     type: 'website',
     siteName: SITE_NAME,
