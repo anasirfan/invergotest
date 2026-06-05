@@ -9,10 +9,10 @@ const SITE_DESC =
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Premium Digital Agency | Web Design, Development & Marketing`,
-    template: `%s — ${SITE_NAME}`,
+    default: `${SITE_NAME} — Web Design, SEO & Digital Marketing`,
+    template: `%s | ${SITE_NAME}`,
   },
-  description: SITE_DESC,
+  description: 'InverGo Design — Full-service digital agency offering web design, SEO, social media marketing, Shopify & app development for US businesses.',
   keywords: [
     'web design', 'web development', 'graphic design', 'logo design',
     'mobile app development', 'ecommerce', 'shopify', 'SEO', 'social media marketing',

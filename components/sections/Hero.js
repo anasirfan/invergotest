@@ -30,15 +30,18 @@ export default function Hero() {
 
       <div className={styles.inner}>
         <div className={styles.contentLeft}>
-          <div className={styles.rotatingText}>
-            <p>Providing</p>
-            <p>
+          <h1
+            className={styles.rotatingText}
+            aria-label="InverGo Design — Premium Web Design, SEO & Digital Marketing Agency"
+          >
+            <span>Providing</span>
+            <span aria-hidden="true">
               <span key={wordIndex} className={styles.word}>
                 {hero.rotatingWords[wordIndex]}
               </span>
-            </p>
-            <p>Services</p>
-          </div>
+            </span>
+            <span>Services</span>
+          </h1>
 
           <div className={styles.description}>{hero.description}</div>
 
@@ -62,7 +65,7 @@ export default function Hero() {
             <div className={styles.slideTrack}>
               {[...hero.platformImages, ...hero.platformImages].map((src, i) => (
                 <div key={i} className={styles.slide}>
-                  <img src={src} alt="" loading="lazy" />
+                  <img src={src} alt={`Platform ${(i % hero.platformImages.length) + 1} — InverGo Design`} loading="lazy" />
                 </div>
               ))}
             </div>
@@ -75,13 +78,13 @@ export default function Hero() {
               <img src="/img/Phone.png" alt="Mobile showcase" />
             </div>
             <div className={`${styles.inph1} ${styles.floating}`}>
-              <img src="/img/T2.png" alt="" className={styles.popout} style={{ animationDelay: '0.2s' }} />
+              <img src="/img/T2.png" alt="Web design project showcase" className={styles.popout} style={{ animationDelay: '0.2s' }} />
             </div>
             <div className={`${styles.inph2} ${styles.floating} ${styles.animDurb}`}>
-              <img src="/img/T1.png" alt="" className={styles.popout} style={{ animationDelay: '0.4s' }} />
+              <img src="/img/T1.png" alt="Mobile app development showcase" className={styles.popout} style={{ animationDelay: '0.4s' }} />
             </div>
             <div className={`${styles.inph3} ${styles.floating} ${styles.animDurc}`}>
-              <img src="/img/T3.png" alt="" className={styles.popout} style={{ animationDelay: '0.6s' }} />
+              <img src="/img/T3.png" alt="Digital marketing showcase" className={styles.popout} style={{ animationDelay: '0.6s' }} />
             </div>
           </div>
         </div>
