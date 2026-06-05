@@ -10,17 +10,9 @@ export default function sitemap() {
   ];
 
   const servicePages = [
-    'graphic-design',
-    'video-editing',
-    'web-development',
-    'mobile-apps',
-    'ecommerce',
-    'va-consultation',
-    'seo',
-    'social-media',
-    'lead-generation',
-    'ebooks',
-    'ai-automation',
+    'graphic-design', 'video-editing', 'web-development', 'mobile-apps',
+    'ecommerce', 'va-consultation', 'seo', 'social-media',
+    'lead-generation', 'ebooks', 'ai-automation',
   ].map((slug) => ({
     url: `${BASE_URL}/${slug}`,
     lastModified: new Date(),
@@ -38,17 +30,9 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
-  // Auto-generated location pages (updated daily by GitHub Actions)
-  let locationPages = [];
-  try {
-    const generated = require('../lib/generated-pages.json');
-    locationPages = generated.map((p) => ({
-      url: `${BASE_URL}/${p.slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.85,
-    }));
-  } catch (e) {}
+  const locationPages = [
+
+  ];
 
   return [...staticPages, ...servicePages, ...caseStudyPages, ...locationPages];
 }
