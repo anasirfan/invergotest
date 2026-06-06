@@ -294,6 +294,11 @@
   color: rgba(255, 255, 255, 0.2);
 }
 
+.input option {
+  background: #1a1a2e;
+  color: #fff;
+}
+
 .input:focus {
   outline: none;
   border-color: #8B5CF6;

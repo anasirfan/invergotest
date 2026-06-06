@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './LocationPage.module.css';
+import Contact from './Contact';
 
 export default function LocationPage({ data }) {
   const { h1, city, state, service, faqs, whyUs, services: serviceList, cta, schema, intro } = data;
@@ -75,9 +76,11 @@ export default function LocationPage({ data }) {
         <div className="container">
           <h2 className={styles.ctaTitle}>{cta.title}</h2>
           <p className={styles.ctaDesc}>{cta.desc}</p>
-          <Link href="/#contact" className="btn btn--primary btn--lg">{cta.button}</Link>
         </div>
       </section>
+
+      {/* CONTACT FORM */}
+      <Contact />
     </>
   );
 }

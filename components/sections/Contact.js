@@ -11,7 +11,7 @@ const contactItems = [
 ];
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [form, setForm] = useState({ name: '', email: '', phone: '', services: '', bestTime: '', message: '' });
   const [status, setStatus] = useState(null);
   const [visible, setVisible] = useState(false);
   const sectionRef = useRef(null);
@@ -38,7 +38,7 @@ export default function Contact() {
       });
       if (res.ok) {
         setStatus('success');
-        setForm({ name: '', email: '', message: '' });
+        setForm({ name: '', email: '', phone: '', services: '', bestTime: '', message: '' });
       } else setStatus('error');
     } catch {
       setStatus('error');
@@ -117,11 +117,58 @@ export default function Contact() {
             </div>
 
             <div className={styles.inputGroup}>
+              <label className={styles.label}>Phone Number</label>
+              <input
+                type="tel"
+                placeholder="+1 (555) 000-0000"
+                value={form.phone}
+                onChange={(e) => setForm({ ...form, phone: e.target.value })}
+                className={styles.input}
+              />
+            </div>
+
+            <div className={styles.inputGroup}>
+              <label className={styles.label}>What Services Do You Want?</label>
+              <select
+                value={form.services}
+                onChange={(e) => setForm({ ...form, services: e.target.value })}
+                className={styles.input}
+              >
+                <option value="">Select a service...</option>
+                <option value="Web Design & Development">Web Design &amp; Development</option>
+                <option value="Graphic Design & Branding">Graphic Design &amp; Branding</option>
+                <option value="Mobile App Development">Mobile App Development</option>
+                <option value="SEO & Digital Marketing">SEO &amp; Digital Marketing</option>
+                <option value="Social Media Marketing">Social Media Marketing</option>
+                <option value="Ecommerce / Shopify">Ecommerce / Shopify</option>
+                <option value="Video Editing">Video Editing</option>
+                <option value="Lead Generation">Lead Generation</option>
+                <option value="VA Consultation">VA Consultation</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div className={styles.inputGroup}>
+              <label className={styles.label}>Best Time to Call You</label>
+              <select
+                value={form.bestTime}
+                onChange={(e) => setForm({ ...form, bestTime: e.target.value })}
+                className={styles.input}
+              >
+                <option value="">Select a time...</option>
+                <option value="Morning (9am - 12pm EST)">Morning (9am - 12pm EST)</option>
+                <option value="Afternoon (12pm - 3pm EST)">Afternoon (12pm - 3pm EST)</option>
+                <option value="Evening (3pm - 6pm EST)">Evening (3pm - 6pm EST)</option>
+                <option value="Anytime">Anytime</option>
+              </select>
+            </div>
+
+            <div className={styles.inputGroup}>
               <label className={styles.label}>Message *</label>
               <textarea
                 placeholder="Tell us about your project..."
                 required
-                rows={5}
+                rows={4}
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
                 className={styles.input}

@@ -88,9 +88,40 @@
   color: #6A49B6 !important;
 }
 
-/* ─── Let's Discuss button (like original .pulse) ─── */
+/* ─── Header buttons wrapper ─── */
 .headerBtn {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ─── Call Now button ─── */
+.callNowLink {
+  text-decoration: none;
+}
+
+.callNowBtn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 18px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1.5px solid #02F6C0;
+  background: transparent;
+  color: #02F6C0;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.callNowBtn:hover {
+  background: #02F6C0;
+  color: #0a0a0f;
 }
 
 .discussLink {
@@ -251,6 +282,27 @@
   background: linear-gradient(135deg, #7C4FE0, #5B21B6);
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(139, 92, 246, 0.3);
+}
+
+.mobileCallBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2.5rem;
+  border: 2px solid #02F6C0;
+  color: #02F6C0;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.3s;
+  width: 100%;
+  text-align: center;
+}
+
+.mobileCallBtn:hover {
+  background: #02F6C0;
+  color: #0a0a0f;
 }
 
 /* ─── Responsive – Medium screens ─── */

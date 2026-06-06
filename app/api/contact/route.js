@@ -42,10 +42,12 @@ async function postToEmailJs(payload) {
       user_id: publicKey,
       template_params: {
         name: payload.name,
-        phone: payload.phone,
+        phone: payload.phone || 'Not provided',
         email: payload.email,
+        services: payload.services || 'Not specified',
+        best_time: payload.bestTime || 'Not specified',
         message: payload.message,
-        source: payload.source,
+        source: payload.source || 'Website',
       },
     }),
   });
