@@ -55,7 +55,7 @@ jobs:
       - name: Commit and Push New Pages
         if: steps.check_changes.outputs.changed == 'true'
         run: |
-          git config --global user.email "seo-bot@invergodesign.com"
+          git config --global user.email "invergodesign@gmail.com"
           git config --global user.name "InverGo SEO Bot"
           PAGE_COUNT=$(git diff --staged --name-only | grep "page.js" | wc -l)
           git commit -m "🤖 Auto: Add $PAGE_COUNT new SEO location pages [$(date +'%Y-%m-%d')]"
