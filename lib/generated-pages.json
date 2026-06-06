@@ -238,5 +238,125 @@
     "city": "Arlington",
     "state": "TX",
     "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-tempe",
+    "city": "Tempe",
+    "state": "AZ",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-boise",
+    "city": "Boise",
+    "state": "ID",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "meta-ads-plano",
+    "city": "Plano",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-henderson",
+    "city": "Henderson",
+    "state": "NV",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-chandler",
+    "city": "Chandler",
+    "state": "AZ",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-gilbert",
+    "city": "Gilbert",
+    "state": "AZ",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-tempe",
+    "city": "Tempe",
+    "state": "AZ",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-boise",
+    "city": "Boise",
+    "state": "ID",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "service": "Meta Ads"
   }
 ]
