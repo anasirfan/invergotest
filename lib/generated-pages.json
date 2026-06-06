@@ -364,5 +364,11 @@
     "city": "Plano",
     "state": "TX",
     "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "service": "Shopify Development"
   }
 ]
