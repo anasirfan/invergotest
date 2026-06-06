@@ -358,5 +358,11 @@
     "city": "Louisville",
     "state": "KY",
     "service": "Meta Ads"
+  },
+  {
+    "slug": "shopify-development-plano",
+    "city": "Plano",
+    "state": "TX",
+    "service": "Shopify Development"
   }
 ]

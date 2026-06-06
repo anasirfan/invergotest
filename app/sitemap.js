@@ -91,6 +91,7 @@ export default function sitemap() {
     { url: `${BASE_URL}/meta-ads-boise`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/meta-ads-richmond`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/meta-ads-louisville`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/shopify-development-plano`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.85 },
   ];
 
   return [...staticPages, ...servicePages, ...caseStudyPages, ...locationPages];
