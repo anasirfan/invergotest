@@ -36,10 +36,14 @@ export default function Contact() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       });
-      if (res.ok) {
+      if (res.ok || res.status === 200 || res.status === 201) {
         setStatus('success');
         setForm({ name: '', email: '', phone: '', services: '', bestTime: '', message: '' });
-      } else setStatus('error');
+      } else {
+        const data = await res.json().catch(() => ({}));
+        console.error('Form error:', data);
+        setStatus('error');
+      }
     } catch {
       setStatus('error');
     }
