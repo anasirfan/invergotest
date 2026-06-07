@@ -15,6 +15,15 @@ export default function LandingPage() {
     link.href = 'https://assets.calendly.com/assets/external/widget.css';
     document.head.appendChild(link);
 
+    // Calendly booking complete → Meta Lead event
+    const handleCalendly = (e) => {
+      if (e.data.event && e.data.event === 'calendly.event_scheduled') {
+        if (window.fbq) window.fbq('track', 'Lead');
+        window.location.href = '/thank-you';
+      }
+    };
+    window.addEventListener('message', handleCalendly);
+
     // Meta Pixel
     const pixelScript = document.createElement('script');
     pixelScript.innerHTML = `
@@ -39,6 +48,7 @@ export default function LandingPage() {
       document.head.removeChild(script);
       document.head.removeChild(link);
       document.head.removeChild(pixelScript);
+      window.removeEventListener('message', handleCalendly);
     };
   }, []);
 
