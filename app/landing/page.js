@@ -76,6 +76,7 @@ export default function LandingPage() {
         body{background:var(--bg)!important;color:var(--white);font-family:var(--font-body);font-size:16px;line-height:1.7;overflow-x:hidden;}
         .lp-wrap{background:var(--bg);min-height:100vh;}
 
+
         /* NAV */
         .lp-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 5%;display:flex;align-items:center;justify-content:space-between;background:rgba(10,10,15,0.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
         .lp-nav-cta{background:var(--accentg);color:#0A0A0F;font-family:var(--font-body);font-weight:600;font-size:.85rem;padding:10px 22px;border:none;border-radius:6px;cursor:pointer;}
@@ -198,6 +199,7 @@ export default function LandingPage() {
         .lp-form-input{background:rgba(255,255,255,.035);border:1px solid var(--border);border-radius:8px;padding:14px 16px;color:var(--white);font-family:var(--font-body);font-size:.9rem;outline:none;width:100%;transition:border-color .2s;}
         .lp-form-input:focus{border-color:rgba(1,138,189,.5);}
         .lp-form-input::placeholder{color:rgba(138,143,186,.6);}
+
 
         /* FOOTER */
         .lp-footer{padding:32px 5%;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;background:var(--bg);}
