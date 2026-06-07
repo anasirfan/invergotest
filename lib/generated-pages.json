@@ -370,5 +370,125 @@
     "city": "Scottsdale",
     "state": "AZ",
     "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-henderson",
+    "city": "Henderson",
+    "state": "NV",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-chandler",
+    "city": "Chandler",
+    "state": "AZ",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-gilbert",
+    "city": "Gilbert",
+    "state": "AZ",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-tempe",
+    "city": "Tempe",
+    "state": "AZ",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-boise",
+    "city": "Boise",
+    "state": "ID",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "mobile-app-development-plano",
+    "city": "Plano",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-henderson",
+    "city": "Henderson",
+    "state": "NV",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-chandler",
+    "city": "Chandler",
+    "state": "AZ",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-gilbert",
+    "city": "Gilbert",
+    "state": "AZ",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "service": "Mobile App Development"
   }
 ]
