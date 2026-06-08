@@ -490,5 +490,125 @@
     "city": "McKinney",
     "state": "TX",
     "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-tempe",
+    "city": "Tempe",
+    "state": "AZ",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-boise",
+    "city": "Boise",
+    "state": "ID",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-richmond",
+    "city": "Richmond",
+    "state": "VA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "lead-generation-plano",
+    "city": "Plano",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-scottsdale",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-henderson",
+    "city": "Henderson",
+    "state": "NV",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-chandler",
+    "city": "Chandler",
+    "state": "AZ",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-gilbert",
+    "city": "Gilbert",
+    "state": "AZ",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-frisco",
+    "city": "Frisco",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-mckinney",
+    "city": "McKinney",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-overland-park",
+    "city": "Overland Park",
+    "state": "KS",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-fort-worth",
+    "city": "Fort Worth",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-arlington",
+    "city": "Arlington",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-irvine",
+    "city": "Irvine",
+    "state": "CA",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-tempe",
+    "city": "Tempe",
+    "state": "AZ",
+    "service": "Lead Generation"
   }
 ]
