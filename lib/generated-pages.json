@@ -730,5 +730,125 @@
     "city": "Los Angeles",
     "state": "CA",
     "service": "Web Design"
+  },
+  {
+    "slug": "web-design-chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-houston",
+    "city": "Houston",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-miami",
+    "city": "Miami",
+    "state": "FL",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-austin",
+    "city": "Austin",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-denver",
+    "city": "Denver",
+    "state": "CO",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-las-vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-portland",
+    "city": "Portland",
+    "state": "OR",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-minneapolis",
+    "city": "Minneapolis",
+    "state": "MN",
+    "service": "Web Design"
   }
 ]
