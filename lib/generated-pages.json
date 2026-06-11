@@ -850,5 +850,125 @@
     "city": "Minneapolis",
     "state": "MN",
     "service": "Web Design"
+  },
+  {
+    "slug": "web-design-san-diego",
+    "city": "San Diego",
+    "state": "CA",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "service": "Web Design"
+  },
+  {
+    "slug": "web-design-boston",
+    "city": "Boston",
+    "state": "MA",
+    "service": "Web Design"
+  },
+  {
+    "slug": "seo-services-new-york",
+    "city": "New York",
+    "state": "NY",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-los-angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-houston",
+    "city": "Houston",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-miami",
+    "city": "Miami",
+    "state": "FL",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-austin",
+    "city": "Austin",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-denver",
+    "city": "Denver",
+    "state": "CO",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-las-vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "service": "SEO Services"
   }
 ]
