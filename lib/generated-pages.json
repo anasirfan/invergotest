@@ -970,5 +970,125 @@
     "city": "Las Vegas",
     "state": "NV",
     "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-portland",
+    "city": "Portland",
+    "state": "OR",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-minneapolis",
+    "city": "Minneapolis",
+    "state": "MN",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-san-diego",
+    "city": "San Diego",
+    "state": "CA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "seo-services-boston",
+    "city": "Boston",
+    "state": "MA",
+    "service": "SEO Services"
+  },
+  {
+    "slug": "social-media-marketing-new-york",
+    "city": "New York",
+    "state": "NY",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-los-angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-houston",
+    "city": "Houston",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-miami",
+    "city": "Miami",
+    "state": "FL",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-austin",
+    "city": "Austin",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-denver",
+    "city": "Denver",
+    "state": "CO",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "service": "Social Media Marketing"
   }
 ]
