@@ -1090,5 +1090,125 @@
     "city": "Nashville",
     "state": "TN",
     "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-las-vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-portland",
+    "city": "Portland",
+    "state": "OR",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-minneapolis",
+    "city": "Minneapolis",
+    "state": "MN",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-san-diego",
+    "city": "San Diego",
+    "state": "CA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "social-media-marketing-boston",
+    "city": "Boston",
+    "state": "MA",
+    "service": "Social Media Marketing"
+  },
+  {
+    "slug": "meta-ads-new-york",
+    "city": "New York",
+    "state": "NY",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-los-angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-houston",
+    "city": "Houston",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-miami",
+    "city": "Miami",
+    "state": "FL",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-austin",
+    "city": "Austin",
+    "state": "TX",
+    "service": "Meta Ads"
   }
 ]
