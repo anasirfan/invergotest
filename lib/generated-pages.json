@@ -1210,5 +1210,125 @@
     "city": "Austin",
     "state": "TX",
     "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-denver",
+    "city": "Denver",
+    "state": "CO",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-las-vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-portland",
+    "city": "Portland",
+    "state": "OR",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-minneapolis",
+    "city": "Minneapolis",
+    "state": "MN",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-san-diego",
+    "city": "San Diego",
+    "state": "CA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "meta-ads-boston",
+    "city": "Boston",
+    "state": "MA",
+    "service": "Meta Ads"
+  },
+  {
+    "slug": "shopify-development-new-york",
+    "city": "New York",
+    "state": "NY",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-los-angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "service": "Shopify Development"
   }
 ]
