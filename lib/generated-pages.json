@@ -1330,5 +1330,125 @@
     "city": "Los Angeles",
     "state": "CA",
     "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-houston",
+    "city": "Houston",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-miami",
+    "city": "Miami",
+    "state": "FL",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-austin",
+    "city": "Austin",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-denver",
+    "city": "Denver",
+    "state": "CO",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-las-vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-portland",
+    "city": "Portland",
+    "state": "OR",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-minneapolis",
+    "city": "Minneapolis",
+    "state": "MN",
+    "service": "Shopify Development"
   }
 ]
