@@ -1450,5 +1450,125 @@
     "city": "Minneapolis",
     "state": "MN",
     "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-san-diego",
+    "city": "San Diego",
+    "state": "CA",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "shopify-development-boston",
+    "city": "Boston",
+    "state": "MA",
+    "service": "Shopify Development"
+  },
+  {
+    "slug": "mobile-app-development-new-york",
+    "city": "New York",
+    "state": "NY",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-los-angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-houston",
+    "city": "Houston",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-miami",
+    "city": "Miami",
+    "state": "FL",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-austin",
+    "city": "Austin",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-denver",
+    "city": "Denver",
+    "state": "CO",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-charlotte",
+    "city": "Charlotte",
+    "state": "NC",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-tampa",
+    "city": "Tampa",
+    "state": "FL",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-san-antonio",
+    "city": "San Antonio",
+    "state": "TX",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-las-vegas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "service": "Mobile App Development"
   }
 ]
