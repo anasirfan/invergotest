@@ -1570,5 +1570,125 @@
     "city": "Las Vegas",
     "state": "NV",
     "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-portland",
+    "city": "Portland",
+    "state": "OR",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-jacksonville",
+    "city": "Jacksonville",
+    "state": "FL",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-minneapolis",
+    "city": "Minneapolis",
+    "state": "MN",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-san-diego",
+    "city": "San Diego",
+    "state": "CA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "mobile-app-development-boston",
+    "city": "Boston",
+    "state": "MA",
+    "service": "Mobile App Development"
+  },
+  {
+    "slug": "lead-generation-new-york",
+    "city": "New York",
+    "state": "NY",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-los-angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-houston",
+    "city": "Houston",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-miami",
+    "city": "Miami",
+    "state": "FL",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-austin",
+    "city": "Austin",
+    "state": "TX",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-seattle",
+    "city": "Seattle",
+    "state": "WA",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-denver",
+    "city": "Denver",
+    "state": "CO",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "service": "Lead Generation"
+  },
+  {
+    "slug": "lead-generation-nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "service": "Lead Generation"
   }
 ]
